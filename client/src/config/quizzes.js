@@ -1,4 +1,12 @@
 const QUIZ_CONFIGS = {
+    cset305: {
+    id: 'cset305',
+    title: 'CSET305',
+    subtitle: 'High Performance Computing',
+    
+    dataFile: 'cset305',
+    questions: 150
+  },
   cset381: {
     id: 'cset381',
     title: 'CSET381',

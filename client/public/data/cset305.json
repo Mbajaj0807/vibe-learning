@@ -1,0 +1,1654 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Which device is primarily latency-oriented?",
+      "options": {
+        "A": "GPU",
+        "B": "FPGA",
+        "C": "CPU",
+        "D": "DSP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Which device is primarily throughput-oriented?",
+      "options": {
+        "A": "CPU",
+        "B": "GPU",
+        "C": "Hard drive",
+        "D": "NIC"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is not a typical CPU design feature from the slides?",
+      "options": {
+        "A": "Large caches",
+        "B": "Branch prediction",
+        "C": "Massive threading logic to tolerate latency",
+        "D": "Data forwarding"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "Which feature is characteristic of GPU architecture as presented?",
+      "options": {
+        "A": "Complex branch prediction",
+        "B": "Many heavily pipelined ALUs for throughput",
+        "C": "Very large per-thread caches",
+        "D": "Minimal threading state"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "According to the slides, when should you prefer CPUs over GPUs?",
+      "options": {
+        "A": "For massively parallel matrix multiplies",
+        "B": "For memory-bound batch processing",
+        "C": "For sequential code where latency matters",
+        "D": "For rendering only"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Which is a reason libraries are recommended for GPU acceleration?",
+      "options": {
+        "A": "They always provide maximum possible performance",
+        "B": "They require rewriting the entire application",
+        "C": "They are easy to use and often \"drop-in\" replacements",
+        "D": "They eliminate the need for compilers"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Which CUDA API function allocates device (global) memory?",
+      "options": {
+        "A": "cudaAlloc()",
+        "B": "cudaMalloc()",
+        "C": "cudaNew()",
+        "D": "cudaAllocDevice()"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Which CUDA API frees memory allocated by cudaMalloc()?",
+      "options": {
+        "A": "cudaFree()",
+        "B": "free()",
+        "C": "cudaDelete()",
+        "D": "cudaRelease()"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question": "Which cudaMemcpy direction constant copies from host to device?",
+      "options": {
+        "A": "cudaMemcpyDeviceToHost",
+        "B": "cudaMemcpyHostToDevice",
+        "C": "cudaMemcpyDeviceToDevice",
+        "D": "cudaMemcpyDefault"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Which is TRUE about cudaMemcpy to device?",
+      "options": {
+        "A": "It is always asynchronous w.r.t the host",
+        "B": "It is synchronous with respect to the host (unless async variant used)",
+        "C": "It does not require number-of-bytes parameter",
+        "D": "It only copies unified memory"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "What does cudaMallocManaged() provide?",
+      "options": {
+        "A": "Separate host and device pointers that must be explicitly synced",
+        "B": "A single managed memory accessible to both host and device",
+        "C": "Host-only memory allocation",
+        "D": "Device-only pinned memory"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Which function is used to prefetch managed memory to a device?",
+      "options": {
+        "A": "cudaMemAdvise()",
+        "B": "cudaMemPrefetchAsync()",
+        "C": "cudaMallocPrefetch()",
+        "D": "cudaPrefetchManaged()"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "In the vector-addition kernel example, what does each thread compute?",
+      "options": {
+        "A": "An entire array sum",
+        "B": "One element C[i] = A[i] + B[i]",
+        "C": "A matrix multiply tile",
+        "D": "The kernel exit code"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "The SPMD programming style stands for:",
+      "options": {
+        "A": "Single-Processor Many-Device",
+        "B": "Single-Program Multiple-Data",
+        "C": "Single-Process Multi-Deployment",
+        "D": "Simple-Parallel Multi-Driver"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "Which qualifier declares a kernel function callable from host and executed on device?",
+      "options": {
+        "A": "device",
+        "B": "global",
+        "C": "host",
+        "D": "both"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "A kernel declared with __global__ must:",
+      "options": {
+        "A": "Return an int",
+        "B": "Return void",
+        "C": "Be called like a normal function from device code",
+        "D": "Be called only from other kernels"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "Given i = blockIdx.x * blockDim.x + threadIdx.x, if blockIdx.x=2, blockDim.x=128, threadIdx.x=5, what is i?",
+      "options": {
+        "A": "261",
+        "B": "261? (compute carefully)",
+        "C": "261.0",
+        "D": "261"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "question": "For vecAddKernel<<<ceil(n/256.0),256>>>(...), what does 256 represent?",
+      "options": {
+        "A": "Number of blocks",
+        "B": "Number of threads per block (blockDim.x)",
+        "C": "Number of grid dimensions",
+        "D": "Number of bytes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "To cover N elements with block size B threads, number of blocks needed is:",
+      "options": {
+        "A": "N/B rounded down",
+        "B": "N/B rounded up (ceiling)",
+        "C": "N*B",
+        "D": "B-N"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "In dim3 DimGrid((n-1)/256 + 1, 1, 1), the expression (n-1)/256 + 1 implements:",
+      "options": {
+        "A": "Floor division",
+        "B": "Ceil division for positive integer n",
+        "C": "Random number generation",
+        "D": "A pointer offset"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "question": "Which CUDA memory is fastest and scoped per-thread?",
+      "options": {
+        "A": "Global memory",
+        "B": "Shared memory",
+        "C": "Registers (automatic variables)",
+        "D": "Constant memory"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "Shared memory in CUDA:",
+      "options": {
+        "A": "Is global across the grid",
+        "B": "Is accessible by all thread blocks",
+        "C": "Is per-thread-block and much faster than global memory",
+        "D": "Is stored in host RAM"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "What is the scope/lifetime of a __shared__ variable?",
+      "options": {
+        "A": "Grid-wide, entire application runtime",
+        "B": "Block-scoped, lifetime until block finishes",
+        "C": "Thread-local, until function returns",
+        "D": "Host-only lifetime"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "__device__ __constant__ variable has which scope?",
+      "options": {
+        "A": "Thread",
+        "B": "Block",
+        "C": "Grid (constant across device)",
+        "D": "Host"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "Which is a correct reason to use unified memory (cudaMallocManaged)?",
+      "options": {
+        "A": "It avoids any data movement overhead",
+        "B": "It provides a single pointer usable on host and device with on-demand migration",
+        "C": "It always outperforms explicit cudaMemcpy",
+        "D": "It prevents page faults"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "For cudaMemcpy(dest, src, size, kind), size is:",
+      "options": {
+        "A": "Number of elements only",
+        "B": "Number of bytes to copy",
+        "C": "Number of threads to copy",
+        "D": "Unused"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "In the slides example, what is the RGB-to-grayscale conversion formula (weights)?",
+      "options": {
+        "A": "0.33r + 0.33g + 0.33b",
+        "B": "0.21r + 0.71g + 0.07b",
+        "C": "0.5r + 0.25g + 0.25*b",
+        "D": "r + g + b"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "In color-convert kernel, if grayscale index grayOffset = y*width + x, RGB offset is:",
+      "options": {
+        "A": "grayOffset / CHANNELS",
+        "B": "grayOffset * CHANNELS",
+        "C": "grayOffset + CHANNELS",
+        "D": "CHANNELS - grayOffset"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "In the corrected colorConvert code, the green channel is accessed as rgbImage[rgbOffset + 1]. Which were the mistaken offsets shown earlier?",
+      "options": {
+        "A": "+0, +1, +2",
+        "B": "+0, +2, +3 (incorrect)",
+        "C": "+1, +2, +3",
+        "D": "+3, +2, +1"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "In the blur kernel, to compute average of neighbors in a (2*BLUR_SIZE+1)^2 box, number of iterations for BLUR_SIZE=1 is:",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "9",
+        "D": "16"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "In the blur kernel pseudocode, the variable pixels tracks:",
+      "options": {
+        "A": "The sum of pixel indices",
+        "B": "The number of valid pixels accumulated inside the blur box",
+        "C": "The image width",
+        "D": "The average pixel intensity"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "If an image has width w and height h, and blockDim=(16,16), gridDim should be:",
+      "options": {
+        "A": "((w-1)/16+1, (h-1)/16+1)",
+        "B": "(w/16, h/16) always integer",
+        "C": "(w+16, h+16)",
+        "D": "(w16, h16)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "For a 62×76 image covered by 16×16 blocks, how many blocks in x (columns) are required?",
+      "options": {
+        "A": "ceil(62/16) = 4",
+        "B": "ceil(62/16) = 3",
+        "C": "62",
+        "D": "16"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "For the same 62×76 image, blocks in y are ceil(76/16) = ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "3",
+        "D": "6"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "A thread block is divided into warps of how many threads (as slides use)?",
+      "options": {
+        "A": "16",
+        "B": "32",
+        "C": "64",
+        "D": "8"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "If block has 256 threads, number of warps per block = 256/32 = ?",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "16",
+        "D": "32"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "Volta SM maximum threads per SM as given in slides:",
+      "options": {
+        "A": "1024",
+        "B": "1536",
+        "C": "2048",
+        "D": "4096"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "If an SM can take up to 2048 threads and you use 256-thread blocks, maximum blocks per SM (limited by thread count) = 2048/256 = ?",
+      "options": {
+        "A": "16",
+        "B": "8",
+        "C": "32",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "Slides say an SM can take up to 32 blocks as resources allow. If using 64-thread blocks, 32 blocks would be 32*64 = ? threads — is this within 2048?",
+      "options": {
+        "A": "2048 exactly",
+        "B": "4096",
+        "C": "1024",
+        "D": "512"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "Zero-overhead warp scheduling means:",
+      "options": {
+        "A": "The compiler schedules warps manually",
+        "B": "Warps with ready operands are selected automatically by hardware without scheduling overhead",
+        "C": "Warps do not exist on GPUs",
+        "D": "Warps cost significant time to switch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "Which of the following is not an advantage of tiling/blocking?",
+      "options": {
+        "A": "Reduces global memory traffic",
+        "B": "Improves data reuse in on-chip memory",
+        "C": "Eliminates need for synchronization between threads in a block",
+        "D": "Focuses computation on a small number of tiles at a time"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "For matrix multiplication, each thread computes:",
+      "options": {
+        "A": "A whole output matrix P",
+        "B": "One element of P (P[Row][Col])",
+        "C": "A column of P only",
+        "D": "Only initial data load"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "question": "In the basic matrix multiply kernel, the inner loop for (k=0; k<Width; ++k) accumulates products of:",
+      "options": {
+        "A": "Row of M and column of N",
+        "B": "Column of M and row of N",
+        "C": "Entire M and N matrices into a scalar",
+        "D": "Nothing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "When using tiled matrix multiply and TILE_WIDTH=16, threads per block = 16*16 = ?",
+      "options": {
+        "A": "128",
+        "B": "256",
+        "C": "512",
+        "D": "1024"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "For TILE_WIDTH=32, threads per block = 32*32 = ?",
+      "options": {
+        "A": "512",
+        "B": "1024",
+        "C": "2048",
+        "D": "4096"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "In tiled matrix multiply, how many floats does each block load from global memory per phase for TILE_WIDTH=16? (Each thread loads 2 floats — one from M, one from N.) Threads per block=256, so loads = 2*256 = ?",
+      "options": {
+        "A": "256",
+        "B": "512",
+        "C": "1024",
+        "D": "2048"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "For TILE_WIDTH=16, in each phase each block performs how many multiply-add operations? Slides: 256 * (2*16) = ?",
+      "options": {
+        "A": "8192",
+        "B": "4096",
+        "C": "2048",
+        "D": "16384"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 48,
+      "question": "For TILE_WIDTH=32, in each phase each block performs: 1024 * (2*32) = ? operations.",
+      "options": {
+        "A": "65536",
+        "B": "32768",
+        "C": "16384",
+        "D": "131072"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "Shared memory per block for TILE_WIDTH=16 (two tiles ds_M and ds_N) each float 4 bytes, total = 2 * (16*16) * 4B = ? bytes.",
+      "options": {
+        "A": "2048 B (2 KB)",
+        "B": "4096 B (4 KB)",
+        "C": "8192 B",
+        "D": "1024 B"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Shared memory per block for TILE_WIDTH=32 = 2 * (32*32) * 4B = ? bytes.",
+      "options": {
+        "A": "8192 B (8 KB)",
+        "B": "16384 B (16 KB)",
+        "C": "4096 B",
+        "D": "32768 B"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "If an SM has 16KB shared memory and each block with TILE_WIDTH=16 uses 2KB, maximum blocks per SM from shared-memory perspective = 16KB / 2KB = ?",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "32"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "If an SM can support 2048 threads but hardware limits threads per SM to 1536 on another GPU, what happens to occupancy?",
+      "options": {
+        "A": "Occupancy increases",
+        "B": "Occupancy cannot use full 2048 threads and drops accordingly",
+        "C": "Occupancy becomes infinite",
+        "D": "Occupancy unaffected"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "What does __syncthreads() guarantee?",
+      "options": {
+        "A": "Global synchronization across all blocks",
+        "B": "Barrier only for threads in the same block — all threads reach it before any proceed",
+        "C": "It flushes cache only",
+        "D": "It allocates shared memory"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 54,
+      "question": "Which is a correct declaration of shared memory 2D array for tiles?",
+      "options": {
+        "A": "__shared__ float ds_M[TILE_WIDTH][TILE_WIDTH];",
+        "B": "__global__ float ds_M[TILE_WIDTH][TILE_WIDTH];",
+        "C": "float ds_M[TILE_WIDTH][TILE_WIDTH]; on host",
+        "D": "__device__ __shared__ float ds_M;"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "In the tiled kernel, the standard inner multiply loop is for (i=0; i<TILE_WIDTH; ++i) Pvalue += ds_M[ty][i] * ds_N[i][tx];. Which dimensions are used?",
+      "options": {
+        "A": "ds_M rows indexed by ty and columns by i; ds_N rows by i and columns by tx",
+        "B": "ds_M indexed by i,tx; ds_N by ty,i",
+        "C": "ds_M and ds_N both by i only",
+        "D": "Indices irrelevant"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "question": "What is a potential downside of using a very large TILE_WIDTH (e.g., 64)?",
+      "options": {
+        "A": "No effect at all",
+        "B": "Increases amount of shared memory per block, reducing number of blocks per SM and hurting concurrency",
+        "C": "Reduces compute per memory access",
+        "D": "Automatically speeds up the kernel always"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "question": "Which memory type is best to store constants used by many threads and rarely changed?",
+      "options": {
+        "A": "Registers",
+        "B": "Shared memory",
+        "C": "constant memory",
+        "D": "Local per-thread arrays on global memory"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 58,
+      "question": "In the matrix multiply tiled kernel, what does the loop for (p = 0; p < n/TILE_WIDTH; ++p) represent?",
+      "options": {
+        "A": "Iterating over tiles/phases along the k dimension",
+        "B": "Iterating across rows only",
+        "C": "A random loop for debugging",
+        "D": "Unrelated to tiling"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "What is the 1D indexing expression for M element M[Row][p*TILE_WIDTH + tx] if M is stored as 1D row-major?",
+      "options": {
+        "A": "M[Row + pTILE_WIDTH + tx]",
+        "B": "M[RowWidth + pTILE_WIDTH + tx]",
+        "C": "M[RowCol + p]",
+        "D": "M[p*TILE + Row]"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "In matrix multiplication P = M * N with Width = W, N element N[(p*TILE_WIDTH + ty)*Width + Col] accesses what?",
+      "options": {
+        "A": "Row (pTILE_WIDTH + ty) and column Col in N",
+        "B": "Column (pTILE_WIDTH + ty) only",
+        "C": "Random memory location",
+        "D": "The element of P"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Which CUDA qualifier combination means a function can be called from host and device (two qualifiers together)?",
+      "options": {
+        "A": "__global__ __device__",
+        "B": "__host__ __device__",
+        "C": "__global__ __host__",
+        "D": "None of these"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "The NVCC compiler produces PTX which is:",
+      "options": {
+        "A": "High-level C++ code only",
+        "B": "An intermediate device code representation that device JIT compiles",
+        "C": "Machine code for CPU",
+        "D": "A runtime library only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "Where is threadIdx defined?",
+      "options": {
+        "A": "In host code only",
+        "B": "As a built-in variable available in device/kernel code representing thread's index within block",
+        "C": "Only when using 1D grids",
+        "D": "As a function argument to kernels"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Which indices are available as 1D, 2D or 3D in CUDA?",
+      "options": {
+        "A": "blockIdx only 1D",
+        "B": "threadIdx and blockIdx can be 1D/2D/3D",
+        "C": "Only threadIdx is multi-dimensional",
+        "D": "Indices don't exist"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "In picture kernel, row calculation is int Row = blockIdx.y*blockDim.y + threadIdx.y; If blockIdx.y=1, blockDim.y=16, threadIdx.y=3 → Row = ?",
+      "options": {
+        "A": "19",
+        "B": "20",
+        "C": "18",
+        "D": "17"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "In the same kernel, column calculation Col = blockIdx.x*blockDim.x + threadIdx.x. If blockIdx.x=0, blockDim.x=16, threadIdx.x=15 → Col = ?",
+      "options": {
+        "A": "15",
+        "B": "16",
+        "C": "31",
+        "D": "0"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 67,
+      "question": "In row-major layout, element index for (row,col) in 1D array is:",
+      "options": {
+        "A": "colwidth + row",
+        "B": "rowwidth + col",
+        "C": "row + col",
+        "D": "width*(row+col)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "In converting color to grayscale, pixel values are unsigned char [0..255]. When computing 0.21f*r + 0.71f*g + 0.07f*b, the result is stored back in an unsigned char — what happens?",
+      "options": {
+        "A": "Implicit truncation/rounding to integer within [0..255]",
+        "B": "It becomes float array automatically",
+        "C": "Error at compile time",
+        "D": "Value becomes negative"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "question": "In the blur kernel, for a pixel at an edge, the code checks if(curRow > -1 && curRow < h && curCol > -1 && curCol < w) — this prevents:",
+      "options": {
+        "A": "Accessing pixels outside image bounds",
+        "B": "Duplicating pixels interiorly",
+        "C": "Memory leaks",
+        "D": "Warp divergence"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "What does the pixVal variable in blur kernel accumulate?",
+      "options": {
+        "A": "Sum of indices",
+        "B": "Sum of intensity values of neighboring pixels",
+        "C": "Count of pixels only",
+        "D": "Block id"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 71,
+      "question": "In the slides, the memory bandwidth example: GPU with peak FP rate 1600 GFLOPS and 600 GB/s DRAM bandwidth requires 4 bytes per FLOP to sustain peak — the calculation 4 * 1600 GFLOPS = ? GB/s required.",
+      "options": {
+        "A": "6400 GB/s",
+        "B": "400 GB/s",
+        "C": "1600 GB/s",
+        "D": "600 GB/s"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "Given the above, with only 600 GB/s available, the achievable FLOPS = (600 GB/s) / (4 bytes per FLOP) = ? GFLOPS.",
+      "options": {
+        "A": "150 GFLOPS",
+        "B": "600 GFLOPS",
+        "C": "400 GFLOPS",
+        "D": "1600 GFLOPS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "question": "The achieved rate 150 GFLOPS is what percent of 1600 GFLOPS?",
+      "options": {
+        "A": "9.375% (i.e., ~9.3%)",
+        "B": "15%",
+        "C": "1%",
+        "D": "50%"
+        },
+      "answer": "A"
+    },
+    {
+      "id": 74,
+      "question": "Which of these reduces global memory accesses to improve GFLOPS?",
+      "options": {
+        "A": "Increasing number of global loads per thread",
+        "B": "Using tiled algorithms and shared memory for data reuse",
+        "C": "Using larger global arrays only",
+        "D": "Removing __syncthreads()"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "question": "Which of these best describes tiling?",
+      "options": {
+        "A": "Breaking a matrix into blocks (tiles) loaded into fast on-chip memory for reuse",
+        "B": "Using only global memory for all accesses",
+        "C": "Using registers only for storing entire matrices",
+        "D": "Running single-threaded code"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 76,
+      "question": "Barrier synchronization (__syncthreads()) is best used:",
+      "options": {
+        "A": "Between different kernels only",
+        "B": "Inside a block to ensure tiles are loaded before using them",
+        "C": "To synchronize between different SMs",
+        "D": "To synchronize host threads"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "Which of the following is true about registers in CUDA?",
+      "options": {
+        "A": "They are slower than global memory",
+        "B": "Each thread has private registers which are fastest storage for that thread",
+        "C": "Registers are shared among all threads in block",
+        "D": "Registers are used to store shared arrays"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "question": "Automatic local arrays declared inside kernel usually map to:",
+      "options": {
+        "A": "Registers if small enough; otherwise to local memory (in device global memory)",
+        "B": "Shared memory always",
+        "C": "Constant memory",
+        "D": "Host memory"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 79,
+      "question": "Which is the correct order of compilation for a CUDA program?",
+      "options": {
+        "A": "Host C compile → link → device code never compiled",
+        "B": "NVCC separates host and device code, host compiled with host compiler and device to PTX, then JIT to device machine code",
+        "C": "Device code compiled to Java",
+        "D": "Everything compiled on the device only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 80,
+      "question": "Thrust library is best described as:",
+      "options": {
+        "A": "A low-level assembly for GPUs",
+        "B": "A C++ STL-like library for GPU vector operations and transforms",
+        "C": "A debugging tool only",
+        "D": "A network library"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 81,
+      "question": "Which of the following is a CUDA accelerated library for linear algebra?",
+      "options": {
+        "A": "cuFFT",
+        "B": "cuBLAS",
+        "C": "DeepStream",
+        "D": "TensorRT"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 82,
+      "question": "Which is used for deep learning primitives (e.g., convolutions)?",
+      "options": {
+        "A": "cuDNN",
+        "B": "nvGRAPH",
+        "C": "cuSPARSE",
+        "D": "NCCL"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 83,
+      "question": "thrust::transform(deviceInput1.begin(), deviceInput1.end(), deviceInput2.begin(), deviceOutput.begin(), thrust::plus<float>()) performs:",
+      "options": {
+        "A": "In-place addition of deviceInput1 only",
+        "B": "Pairwise addition of deviceInput1 and deviceInput2 into deviceOutput",
+        "C": "A matrix multiply",
+        "D": "Copy deviceInput1 to host"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 84,
+      "question": "OpenACC directives like #pragma acc parallel loop copyin(...) are examples of:",
+      "options": {
+        "A": "Library functions",
+        "B": "Compiler directives that provide portable acceleration hints",
+        "C": "Manual assembly coding",
+        "D": "Host I/O functions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "question": "Which of the following is likely to be less portable?",
+      "options": {
+        "A": "High-level OpenACC directives",
+        "B": "Low-level CUDA C tuned to a GPU architecture",
+        "C": "Standard C++ code with no parallelism",
+        "D": "Using portable libraries"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 86,
+      "question": "Which memory transfer may the driver choose to use host or device memory internally in unified memory?",
+      "options": {
+        "A": "cudaMemcpy between arrays regardless of positioned memory",
+        "B": "cudaMallocManaged only",
+        "C": "cudaFree only",
+        "D": "cudaLaunch only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 87,
+      "question": "When using Unified Memory before compute capability 6.x, what limitation existed?",
+      "options": {
+        "A": "There was specialized hardware to accelerate UM",
+        "B": "No specialized hardware; full memory block copied synchronously by the driver on migration",
+        "C": "Memory oversubscription always allowed",
+        "D": "Managed memory did not exist"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "From compute capability 6.x onwards, unified memory benefits from:",
+      "options": {
+        "A": "On-demand page migration with hardware page faulting units",
+        "B": "No migration at all",
+        "C": "Only host-side allocation permitted",
+        "D": "No change"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 89,
+      "question": "In a 2D grid one might use dim3 DimGrid((n-1)/16 + 1, (m-1)/16 + 1, 1) for block size 16x16. This formula ensures:",
+      "options": {
+        "A": "Grid covers all pixels even when dimensions don't divide block size evenly",
+        "B": "Grid always overshoots massively",
+        "C": "Grid dims are negative sometimes",
+        "D": "This formula is illegal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 90,
+      "question": "In PictureKernel, what check prevents out-of-range threads from writing?",
+      "options": {
+        "A": "No check required",
+        "B": "if ((Row < height) && (Col < width))",
+        "C": "if (Row > height)",
+        "D": "if (Col == width)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "question": "Which of the following is not part of the CUDA execution model?",
+      "options": {
+        "A": "Host executes serial parts",
+        "B": "Device executes parallel kernel functions (SPMD)",
+        "C": "All CUDA kernels automatically run on CPU if no GPU present",
+        "D": "Kernel launch syntax <<<grid, block>>>"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 92,
+      "question": "For ceil(n/256.0) used in kernel launch, why use floating ceil instead of integer math (n-1)/256 +1?",
+      "options": {
+        "A": "Both are equivalent for positive integers; second avoids floating ops and is often preferred",
+        "B": "Ceil is always faster on GPU",
+        "C": "Integer math is illegal",
+        "D": "Floating ceil is required by CUDA"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 93,
+      "question": "Which of the following is a correct statement about __device__ functions?",
+      "options": {
+        "A": "Callable from host only",
+        "B": "Executed on device and callable from other device or global functions (not host)",
+        "C": "Executed on host only",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "question": "Which qualifier marks a function that executes only on the host?",
+      "options": {
+        "A": "global",
+        "B": "device",
+        "C": "host",
+        "D": "shared"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 95,
+      "question": "NVCC produces PTX which may be JIT-compiled on the GPU runtime. Which is an advantage of this?",
+      "options": {
+        "A": "Device-specific optimization at load time",
+        "B": "Host-side speed improvements only",
+        "C": "No advantage",
+        "D": "It prevents using unified memory"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 96,
+      "question": "When using unified memory, which API can give the driver hints about usage (read-mostly, prefer location)?",
+      "options": {
+        "A": "cudaMemAdvise()",
+        "B": "cudaMallocHint()",
+        "C": "cudaUsageHint()",
+        "D": "cudaMemcpyHint()"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 97,
+      "question": "Which of the following is a correct pattern to check cudaMalloc error?",
+      "options": {
+        "A": "cudaError_t err = cudaMalloc(&d_A, size); if (err != cudaSuccess) { printf(\"%s\", cudaGetErrorString(err)); }",
+        "B": "if (cudaMalloc(&d_A,size) == 0) printf(\"OK\");",
+        "C": "cudaMalloc(&d_A,size); // ignore errors",
+        "D": "cudaCheck(d_A);"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 98,
+      "question": "In the slides, what is the primary role of shared memory in tiled algorithms?",
+      "options": {
+        "A": "To serve as persistent storage between kernels",
+        "B": "To allow multiple threads in a block to share loaded tile data at high speed",
+        "C": "To replace the register file entirely",
+        "D": "To store host variables"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 99,
+      "question": "For a toy tiled example, if TILE_WIDTH=2 and block has 4 threads, how many elements per tile?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "question": "For BLOCK_WIDTH=2 example visualized in slides, thread (tx,ty) mapping yields which element P[0,0] computed by which thread? (If threadIdx.x=0, threadIdx.y=0)",
+      "options": {
+        "A": "Thread (0,0) computes P[0,0]",
+        "B": "Thread (1,1) computes P[0,0]",
+        "C": "No thread computes P[0,0]",
+        "D": "All threads compute P[0,0]"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 101,
+      "question": "In tiled matrix multiply, shared memory allows each loaded value to be accessed by:",
+      "options": {
+        "A": "Only the loading thread",
+        "B": "Multiple threads within the block multiple times across inner loop iterations",
+        "C": "Threads across different blocks without extra copying",
+        "D": "Host threads"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "question": "Which of the following is a reason to choose TILE_WIDTH=16 over TILE_WIDTH=32 on a GPU with limited shared memory?",
+      "options": {
+        "A": "TILE_WIDTH=16 uses more shared memory per block",
+        "B": "TILE_WIDTH=16 uses less shared memory and allows more blocks per SM, increasing parallelism",
+        "C": "TILE_WIDTH=16 always gives worse performance",
+        "D": "TILE_WIDTH=16 doubles register usage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "question": "In ds_N[ty][tx] = N[(p*TILE_WIDTH+ty)*Width + Col]; what does Col represent?",
+      "options": {
+        "A": "Column index in output matrix P and index for N column",
+        "B": "Row in M",
+        "C": "Thread index only",
+        "D": "Shared memory offset only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 104,
+      "question": "Which of the following best explains memory coalescing?",
+      "options": {
+        "A": "Random global memory accesses are preferred",
+        "B": "Consecutive threads accessing consecutive memory addresses leads to coalesced memory transactions and improved throughput",
+        "C": "Accessing shared memory from consecutive threads fails",
+        "D": "Coalescing requires CPU intervention"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "In the matrix multiply kernel, if Row >= Width or Col >= Width we should:",
+      "options": {
+        "A": "Still compute and risk out-of-bounds memory access",
+        "B": "if ((Row < Width) && (Col < Width)) guard to avoid out-of-bounds writes",
+        "C": "Use negative indices",
+        "D": "Abort kernel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "In __shared__ float ds_M[TILE_WIDTH][TILE_WIDTH];, how many floats are allocated when TILE_WIDTH=16?",
+      "options": {
+        "A": "16",
+        "B": "256",
+        "C": "32",
+        "D": "1024"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "The slides mention that threads in different blocks:",
+      "options": {
+        "A": "Can directly synchronize using __syncthreads()",
+        "B": "Do not interact and cannot use __syncthreads() to sync across blocks",
+        "C": "Share the same shared memory",
+        "D": "Are always scheduled on same SM"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "If a block has 900 threads (30×30), how many blocks could fit into a 2048-thread SM by thread count only?",
+      "options": {
+        "A": "floor(2048/900) = 2 blocks",
+        "B": "1 block only",
+        "C": "3 blocks",
+        "D": "0 blocks"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 109,
+      "question": "If two blocks with 900 threads each are placed on an SM, total threads used = 1800, which is:",
+      "options": {
+        "A": "Over 2048 limit",
+        "B": "Under 2048 and thus fits by thread count",
+        "C": "Exactly the limit",
+        "D": "Not allowed because blocks must be equal"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 110,
+      "question": "Which is true about warp divergence?",
+      "options": {
+        "A": "Threads in a warp always execute identical control flow, so divergence is impossible",
+        "B": "If threads in a warp take different branches, execution serializes possible paths harming performance",
+        "C": "Divergence increases parallelism",
+        "D": "Divergence only occurs between blocks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "question": "Which is the correct reason to check API return codes (e.g., cudaGetErrorString(err))?",
+      "options": {
+        "A": "To ignore errors safely",
+        "B": "To detect and handle failures (memory allocation, invalid launches) and report meaningful messages",
+        "C": "To optimize performance only",
+        "D": "It is obsolete"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "Which of these is NOT a device memory type in the slides?",
+      "options": {
+        "A": "Registers",
+        "B": "Shared memory",
+        "C": "Global memory",
+        "D": "HDD memory"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 113,
+      "question": "In the RGB-to-grayscale kernel code, why CHANNELS is defined as 3?",
+      "options": {
+        "A": "For R,G,B channels — each pixel has 3 components",
+        "B": "Because 3 is prime",
+        "C": "To match TILE_WIDTH",
+        "D": "It must be 3 for all images system-wide"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "In rgbOffset = grayOffset*CHANNELS; if grayOffset=10, rgbOffset= ?",
+      "options": {
+        "A": "10",
+        "B": "30",
+        "C": "13",
+        "D": "20"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "In the colorConvert kernel, the code mistakenly used g = rgbImage[rgbOffset + 2] and b = rgbImage[rgbOffset + 3] — what's the problem?",
+      "options": {
+        "A": "+3 is out-of-bounds since valid channel offsets are 0,1,2",
+        "B": "It's fine, images have 4 channels",
+        "C": "It intentionally reads alpha channel",
+        "D": "It reads integer metadata"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "question": "What does SPMD mean in the kernel context?",
+      "options": {
+        "A": "Single-Program Multiple-Data — same program executed independently by multiple threads on different data",
+        "B": "Single-Process Multi-Device",
+        "C": "Single-Program Many-Devices only on CPU",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 117,
+      "question": "Which CUDA directive would you use to mark a kernel launch?",
+      "options": {
+        "A": "pragma",
+        "B": "<<<grid, block>>> launch syntax",
+        "C": "@cuda.launch decorator",
+        "D": "#include <cuda_launch>"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "What happens if you forget cudaFree() for device pointers in a long-running host application?",
+      "options": {
+        "A": "Nothing — memory freed automatically immediately",
+        "B": "Device memory leak causing resource exhaustion over time",
+        "C": "Host memory leaked only",
+        "D": "GPU will restart"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "Which of the following is an example of portability across ISAs noted in slides?",
+      "options": {
+        "A": "X86 vs ARM",
+        "B": "NVidia vs Borland compiler",
+        "C": "GPU vs HDD",
+        "D": "Shared memory vs global memory"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "Which parallelism models were mentioned as portability concerns?",
+      "options": {
+        "A": "VLIW vs SIMD vs threading",
+        "B": "SMP vs NUMA only",
+        "C": "Only SIMD matters",
+        "D": "None mentioned"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 121,
+      "question": "Which of the following is NOT a typical CUDA library mentioned?",
+      "options": {
+        "A": "cuBLAS",
+        "B": "cuSPARSE",
+        "C": "cuHTML",
+        "D": "cuFFT"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "In the context of software cost control, why is scalability important?",
+      "options": {
+        "A": "So software runs efficiently on new generations of cores without redeveloping",
+        "B": "So code is larger and costly",
+        "C": "So chip gates per chip decrease",
+        "D": "So software becomes hardware"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "question": "The slides show software lines per chip grow faster than hardware gates. Which implication follows?",
+      "options": {
+        "A": "Software redeployment costs dominate and must be minimized",
+        "B": "Hardware will be free soon",
+        "C": "Software costs will drop naturally",
+        "D": "Hardware complexity is irrelevant"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 124,
+      "question": "Which is a correct description of thread blocks?",
+      "options": {
+        "A": "A collection of threads that can cooperate via shared memory and synchronize with __syncthreads()",
+        "B": "A global array of threads with cross-block shared memory",
+        "C": "A static hardware entity that cannot move",
+        "D": "A thread that cannot communicate"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 125,
+      "question": "Which function declaration is illegal for a kernel?",
+      "options": {
+        "A": "__global__ void myKernel(...)",
+        "B": "__global__ int myKernel(...) (returning int)",
+        "C": "__device__ float devFunc()",
+        "D": "__host__ void hostFunc()"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "question": "Which of the following is true about blockIdx values?",
+      "options": {
+        "A": "blockIdx.x, blockIdx.y, blockIdx.z can be used for up to 3D grid indexing",
+        "B": "blockIdx is only available in host code",
+        "C": "blockIdx values are always floats",
+        "D": "blockIdx cannot be used with 2D grids"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "question": "Which of the following best explains why many threads are required on GPUs?",
+      "options": {
+        "A": "GPU threads are slower so more are needed randomly",
+        "B": "Many threads are needed to tolerate long memory latencies and keep ALUs busy (throughput model)",
+        "C": "To increase register usage only",
+        "D": "To reduce the number of warps"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "In the slides, what are examples of devices inside a heterogeneous SoC?",
+      "options": {
+        "A": "Latency cores, throughput cores, DSP cores, configurable logic, on-chip memories",
+        "B": "Only CPUs and GPUs",
+        "C": "Terminal devices exclusively",
+        "D": "Printers, scanners only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 129,
+      "question": "Which of the following is not part of the \"keys to software cost control\" listed?",
+      "options": {
+        "A": "Scalability",
+        "B": "Portability",
+        "C": "Using only one ISA forever",
+        "D": "Minimizing software redevelopment"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "question": "Which of these matches the description \"convert long latency memory accesses to short latency cache accesses\"?",
+      "options": {
+        "A": "Large caches on CPU",
+        "B": "CUDA shared memory usage only",
+        "C": "Disk caching",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 131,
+      "question": "Which component of CPU reduces branch latency according to slides?",
+      "options": {
+        "A": "Branch prediction",
+        "B": "Shader units",
+        "C": "On-chip DRAM only",
+        "D": "Shared memory"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 132,
+      "question": "GPUs typically lack which CPU feature to simplify control?",
+      "options": {
+        "A": "Branch prediction and data forwarding",
+        "B": "ALUs",
+        "C": "Registers",
+        "D": "SIMD units"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 133,
+      "question": "Which of the following is an effect of small GPU caches?",
+      "options": {
+        "A": "Lower memory throughput",
+        "B": "To boost memory throughput by streaming accesses and using many threads to hide latency",
+        "C": "Reduced need for threads",
+        "D": "Increased branch prediction"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "question": "Which of the following tasks is best split between CPU and GPU as slides suggest?",
+      "options": {
+        "A": "CPU for sequential latency-sensitive parts; GPU for parallel throughput-heavy parts",
+        "B": "GPU for sequential code only",
+        "C": "CPU for rendering only",
+        "D": "GPU for launching OS tasks"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 135,
+      "question": "thrust::copy(hostInput1.begin(), hostInput1.end(), deviceInput1.begin()); accomplishes:",
+      "options": {
+        "A": "Copy from host vector to device vector in Thrust abstraction",
+        "B": "Copy from device to host",
+        "C": "In-place reverse",
+        "D": "Error: cannot copy between host & device in Thrust"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 136,
+      "question": "Which is a correct reason to use compiler directives (OpenACC) over manual CUDA?",
+      "options": {
+        "A": "Simpler code and more portability with less low-level detail, though possibly less predictable performance",
+        "B": "Always maximum performance and most flexibility",
+        "C": "They require writing PTX manually",
+        "D": "They are deprecated"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 137,
+      "question": "Which memory type allows explicit barrier synchronization between threads in the same block?",
+      "options": {
+        "A": "Registers",
+        "B": "Shared memory (with __syncthreads())",
+        "C": "Global memory without sync",
+        "D": "Host memory"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "A kernel that uses many registers per thread may cause:",
+      "options": {
+        "A": "Higher occupancy always",
+        "B": "Register pressure, spilling to local memory and reduced occupancy",
+        "C": "More shared memory used",
+        "D": "Better coalescing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "question": "Which of the following is true about cudaMemcpyAsync()?",
+      "options": {
+        "A": "It does not exist",
+        "B": "It allows asynchronous copies if proper streams and pinned memory are used",
+        "C": "It is always synchronous with the host",
+        "D": "It only works for unified memory"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "question": "Which library is best suited for graph algorithms on NVIDIA GPUs (as per slides)?",
+      "options": {
+        "A": "nvGRAPH",
+        "B": "cuBLAS",
+        "C": "cuFFT",
+        "D": "cuDNN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "question": "In the tiled matrix multiply kernel, what is the purpose of double __syncthreads() (one after load and one after the inner loop)?",
+      "options": {
+        "A": "First ensures tile loaded before use; second ensures all threads finished using tile before overwriting it in next phase",
+        "B": "To slow down kernel intentionally",
+        "C": "To synchronize across grids",
+        "D": "Unnecessary duplication"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 142,
+      "question": "Which of the following is a correct reason that some computations are hard to tile?",
+      "options": {
+        "A": "When threads have very different access timing and little locality, tiles provide poor reuse",
+        "B": "When data is perfectly aligned",
+        "C": "When only one thread is used",
+        "D": "When using shared memory always"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 143,
+      "question": "What is the typical code used to check and print a cudaMalloc error with filename and line number?",
+      "options": {
+        "A": "printf(\"%s in %s at line %d\\n\", cudaGetErrorString(err), __FILE__, __LINE__);",
+        "B": "printf(\"OK\");",
+        "C": "std::cout << cudaGetErrorString(err); only",
+        "D": "No print is used"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 144,
+      "question": "If you have N=1000 elements and block size=256 threads, number of blocks using (n-1)/256 + 1 = ?",
+      "options": {
+        "A": "(1000-1)/256 + 1 = 999/256 +1 = floor(3.900...) +1 = 3 +1 = 4 blocks",
+        "B": "3 blocks",
+        "C": "5 blocks",
+        "D": "2 blocks"
+      },
+      "answer": "A"
+    },
+    {
+      "id":145,
+      "question": "Using ceil(n/256.0) for n=1024 gives number of blocks = ceil(4.0) = ?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "3",
+        "D": "2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "If a grid has DimGrid.x = 10 and DimBlock.x = 16, total number of threads in x dimension = ?",
+      "options": {
+        "A": "160",
+        "B": "26",
+        "C": "10",
+        "D": "16"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 147,
+      "question": "Suppose an SM can support up to 2048 threads. If block size is 1024 threads, maximum blocks concurrently resident by thread-count = floor(2048/1024) = ?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "3"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 148,
+      "question": "In the slides, which component is described as \"scratchpad memory in computer architecture\"?",
+      "options": {
+        "A": "Global memory",
+        "B": "Shared memory",
+        "C": "Registers",
+        "D": "Disk cache"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 149,
+      "question": "In blurKernel, after computing pixVal and pixels, the output assigned as (unsigned char)(pixVal / pixels) — which conversion occurs?",
+      "options": {
+        "A": "Floating division then cast to unsigned char (trunc/round toward zero)",
+        "B": "Integer division only with no cast",
+        "C": "Bitwise AND operation",
+        "D": "No conversion needed"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 150,
+      "question": "Which of the following best summarizes the goal of tiled algorithms taught in Module 4?",
+      "options": {
+        "A": "Reduce code readability for performance",
+        "B": "Reduce global-memory bandwidth pressure by reusing data from on-chip (shared) memory via tiles and synchronization",
+        "C": "Increase global memory operations per FLOP",
+        "D": "Eliminate all use of registers"
+      },
+      "answer": "B"
+    }
+  ]
+}
