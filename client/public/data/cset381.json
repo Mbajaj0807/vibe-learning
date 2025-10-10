@@ -1,0 +1,1656 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Which of the following best describes Artificial Intelligence (AI)?",
+      "options": {
+        "A": "The study of algorithms that enable computers to perform tasks requiring human intelligence",
+        "B": "Any program that processes data faster than humans",
+        "C": "Hardware designed to mimic the human brain",
+        "D": "Databases optimized for search"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "The Turing Test is used to evaluate:",
+      "options": {
+        "A": "The speed of an AI program",
+        "B": "Whether a machine exhibits indistinguishable intelligent behavior from a human",
+        "C": "The memory usage of AI systems",
+        "D": "The accuracy of neural networks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "In state-space search, a state is:",
+      "options": {
+        "A": "A node's heuristic value",
+        "B": "A representation of a configuration of the problem at a given time",
+        "C": "The list of visited nodes",
+        "D": "The final goal only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Which property is not applicable to Breadth-First Search (BFS)?",
+      "options": {
+        "A": "Complete on finite graphs",
+        "B": "Finds shortest path in terms of number of edges when costs are uniform",
+        "C": "Uses a stack (LIFO)",
+        "D": "Space complexity is exponential in depth"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Depth-First Search (DFS) may fail to terminate on infinite-depth trees because it:",
+      "options": {
+        "A": "Runs out of memory immediately",
+        "B": "Explores shallow nodes first",
+        "C": "Can keep going deeper along one path without finding a goal",
+        "D": "Is optimal"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Uniform Cost Search expands nodes based on:",
+      "options": {
+        "A": "Heuristic value h(n) only",
+        "B": "Depth only",
+        "C": "Lowest path cost g(n) so far",
+        "D": "Random selection"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Iterative Deepening Search (IDS) combines the benefits of BFS and DFS because it:",
+      "options": {
+        "A": "Uses heuristics like A*",
+        "B": "Performs depth-limited DFS with increasing limits, achieving low memory and optimality",
+        "C": "Is identical to BFS in time complexity but uses more space",
+        "D": "Uses dynamic programming"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "A heuristic h(n) is admissible if:",
+      "options": {
+        "A": "h(n) overestimates the true cost to reach the goal",
+        "B": "h(n) equals zero for all nodes",
+        "C": "h(n) never overestimates the true minimal cost to goal",
+        "D": "h(n) is always greater than g(n)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "In A* search, f(n) is defined as:",
+      "options": {
+        "A": "f(n) = h(n) only",
+        "B": "f(n) = g(n) only",
+        "C": "f(n) = g(n) + h(n)",
+        "D": "f(n) = max(g(n), h(n))"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is true about A* with consistent (monotone) heuristics?",
+      "options": {
+        "A": "A* is not guaranteed to find optimal solutions",
+        "B": "The f-value of nodes along any path is non-decreasing",
+        "C": "It requires exponential memory but is never optimal",
+        "D": "Heuristics cannot be consistent"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "Greedy Best-First Search uses:",
+      "options": {
+        "A": "Only g(n)",
+        "B": "Only h(n) for selection",
+        "C": "g(n) + h(n)",
+        "D": "Random tie-breaking only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Hill-climbing search can get stuck in:",
+      "options": {
+        "A": "Global optimum always",
+        "B": "Local maxima or plateaus",
+        "C": "Only the start state",
+        "D": "Infinite loops only in breadth-first settings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Which algorithm is least likely to escape local minima without modifications?",
+      "options": {
+        "A": "Simulated annealing",
+        "B": "Hill climbing (basic)",
+        "C": "Genetic algorithms",
+        "D": "Tabu search"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "Simulated annealing reduces the probability of accepting worse states as:",
+      "options": {
+        "A": "Temperature increases",
+        "B": "Temperature decreases",
+        "C": "Heuristic value increases",
+        "D": "Population size increases"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "A genetic algorithm typically does NOT use:",
+      "options": {
+        "A": "Crossover",
+        "B": "Mutation",
+        "C": "Backpropagation",
+        "D": "Selection"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "Constraint Satisfaction Problems (CSPs) are often solved with:",
+      "options": {
+        "A": "Minimax only",
+        "B": "Backtracking search with constraint propagation",
+        "C": "Gradient descent",
+        "D": "Exact polynomial-time algorithms for all CSPs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "In a CSP, arc consistency (AC-3) reduces domain values by enforcing:",
+      "options": {
+        "A": "Global optimality",
+        "B": "For every value in variable X's domain, there exists a consistent value in Y's domain for each constraint between X and Y",
+        "C": "Heuristic admissibility",
+        "D": "Local maxima avoidance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "The minimax algorithm in two-player zero-sum games assumes:",
+      "options": {
+        "A": "Both players cooperate",
+        "B": "Opponents act to minimize the first player's utility",
+        "C": "Probabilistic moves only",
+        "D": "No adversary exists"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Alpha–beta pruning improves minimax by:",
+      "options": {
+        "A": "Changing the game tree shape",
+        "B": "Pruning branches that cannot affect the final decision due to current alpha and beta bounds",
+        "C": "Making the heuristic admissible",
+        "D": "Increasing branching factor"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "Which of these guarantees does alpha-beta pruning provide (with perfect move ordering)?",
+      "options": {
+        "A": "Same result as minimax but can reduce nodes expanded to the square root of minimax's nodes",
+        "B": "Different result from minimax",
+        "C": "Always worse than minimax in space use",
+        "D": "Only applicable to single-player problems"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "In adversarial search, utility function measures:",
+      "options": {
+        "A": "Time complexity of the search",
+        "B": "The reward or payoff value for terminal states from a player's perspective",
+        "C": "The branching factor",
+        "D": "Memory consumption"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "A deterministic, fully observable single-agent environment is best modeled by:",
+      "options": {
+        "A": "Partially observable MDP",
+        "B": "Deterministic search problem (classical planning)",
+        "C": "Stochastic games",
+        "D": "Hidden Markov Model"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is NOT a property of intelligent agents?",
+      "options": {
+        "A": "Autonomy",
+        "B": "Reactivity",
+        "C": "Emotional state representation as a must",
+        "D": "Pro-activeness/goal-directed behavior"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "A reflex agent acts based on:",
+      "options": {
+        "A": "Past history only",
+        "B": "A model of the world only",
+        "C": "Current percept only (condition-action rules)",
+        "D": "Utility maximization over time"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "The Bellman equation for the optimal value V*(s) in an MDP expresses V* as:",
+      "options": {
+        "A": "The maximum over actions of immediate reward plus discounted expected V* of next state",
+        "B": "The sum of rewards only",
+        "C": "The heuristic only",
+        "D": "The minimum over actions"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "In an MDP, the discount factor γ ∈ [0,1) primarily controls:",
+      "options": {
+        "A": "How much future rewards are valued relative to immediate rewards",
+        "B": "Exploration rate only",
+        "C": "Size of state space",
+        "D": "Heuristic admissibility"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 27,
+      "question": "Value Iteration updates V(s) until convergence by applying:",
+      "options": {
+        "A": "A gradient descent step on V(s) parameters",
+        "B": "The Bellman optimality backup repeatedly",
+        "C": "Random sampling only",
+        "D": "Direct policy calculation without iteration"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "Policy Iteration alternates between:",
+      "options": {
+        "A": "Value update and backpropagation",
+        "B": "Policy evaluation and policy improvement until policy is stable",
+        "C": "Genetic crossover and mutation",
+        "D": "Heuristic recalculation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Which statement about MDPs is true?",
+      "options": {
+        "A": "MDPs require deterministic transitions only",
+        "B": "MDPs can represent stochastic decision problems with rewards and actions",
+        "C": "MDPs are useless for sequential decision-making",
+        "D": "MDPs always have finite horizon only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "In a gridworld with deterministic actions and unit step cost (−1 per move) and discount γ=1, the optimal policy from a state to the nearest goal minimizes:",
+      "options": {
+        "A": "Total number of moves to reach goal",
+        "B": "Maximum moves to any goal",
+        "C": "Heuristic estimate only",
+        "D": "Probability of reaching goal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "Which activation function is NOT differentiable at zero?",
+      "options": {
+        "A": "Sigmoid",
+        "B": "tanh",
+        "C": "ReLU",
+        "D": "Linear"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 32,
+      "question": "A perceptron can perfectly classify:",
+      "options": {
+        "A": "Any dataset including XOR",
+        "B": "Only linearly separable datasets",
+        "C": "Time series data without preprocessing",
+        "D": "Any dataset with sufficient layers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "question": "Gradient descent requires which of the following to reduce error?",
+      "options": {
+        "A": "A non-differentiable loss always",
+        "B": "A learning rate and differentiable loss function",
+        "C": "Exact knowledge of future data",
+        "D": "No hyperparameters"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "question": "For a single neuron with sigmoid activation, cross-entropy loss is preferred over squared error because:",
+      "options": {
+        "A": "It simplifies the derivative and avoids slow learning near saturation",
+        "B": "It always gives lower loss values",
+        "C": "It's non-differentiable",
+        "D": "It doesn't require labels"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "In neural networks, overfitting is best addressed by:",
+      "options": {
+        "A": "Increasing model size only",
+        "B": "Regularization, dropout, and more data",
+        "C": "Removing validation set",
+        "D": "Decreasing training set size"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "Which learning rule is used to update weights in multilayer perceptrons?",
+      "options": {
+        "A": "Backpropagation with gradient descent",
+        "B": "Hebbian learning only",
+        "C": "K-means",
+        "D": "Naive Bayes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "For an undirected graph search problem where edge costs vary, which algorithm guarantees optimal path?",
+      "options": {
+        "A": "Greedy Best-First Search",
+        "B": "A* with admissible heuristic",
+        "C": "DFS",
+        "D": "Basic Hill Climbing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 38,
+      "question": "Heuristic h1 dominates h2 if:",
+      "options": {
+        "A": "h1(n) ≤ h2(n) for all n",
+        "B": "h1(n) ≥ h2(n) for all n and both admissible, leading to fewer node expansions for A*",
+        "C": "h1 is inconsistent always",
+        "D": "h1 equals zero"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "In pattern database heuristics, admissibility is preserved if:",
+      "options": {
+        "A": "The heuristic underestimates actual cost",
+        "B": "It's combined by taking the maximum of several admissible heuristics",
+        "C": "We average heuristics always",
+        "D": "We sum unrelated admissible heuristics without care"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "The branching factor b in search affects:",
+      "options": {
+        "A": "Space complexity exponentially with depth (roughly b^d)",
+        "B": "The heuristic's admissibility",
+        "C": "Only the time of DFS",
+        "D": "Non of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 41,
+      "question": "Which is a memory-efficient search for shallow goal with large branching factor?",
+      "options": {
+        "A": "BFS",
+        "B": "IDS (Iterative Deepening Search)",
+        "C": "A* with no heuristic",
+        "D": "Greedy Best-First"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "Informed local search is preferred when:",
+      "options": {
+        "A": "The state space is small and tree-like",
+        "B": "The solution is near the start and heuristic is informative",
+        "C": "There is a well-defined global cost function and gradient usable",
+        "D": "Exact optimality is required regardless of memory"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "question": "Which of these is a complete search algorithm on finite graphs?",
+      "options": {
+        "A": "DFS without cycle checking",
+        "B": "BFS with cycle checking",
+        "C": "Greedy Best-First (no cycles)",
+        "D": "Hill Climbing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is an example of adversarial search application?",
+      "options": {
+        "A": "Path planning for a robot with static obstacles",
+        "B": "Chess engine move selection",
+        "C": "Calculating shortest path in a weighted graph",
+        "D": "Clustering data points"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "In game trees, quiescence search is used to:",
+      "options": {
+        "A": "Ensure minimax handles noisy or volatile positions (avoid horizon effect)",
+        "B": "Speed up BFS",
+        "C": "Prune branches using heuristics",
+        "D": "Convert minimax to stochastic search"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "The complexity of minimax for depth d and branching b is approximately:",
+      "options": {
+        "A": "O(b + d)",
+        "B": "O(b^d)",
+        "C": "O(d^b)",
+        "D": "O(log b * d)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "Which of these is NOT a feature of expert systems?",
+      "options": {
+        "A": "Use of knowledge base and inference engine",
+        "B": "Explanation facility",
+        "C": "Self-evolving neural network training automatically from scratch",
+        "D": "Rule-based reasoning"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "Heuristic search techniques are especially useful when:",
+      "options": {
+        "A": "Exact cost is cheaply computable",
+        "B": "The search space is huge and domain knowledge can guide search",
+        "C": "There is no goal state",
+        "D": "The problem is trivial"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "If a problem has a high branching factor but small solution depth, best algorithm is:",
+      "options": {
+        "A": "DFS",
+        "B": "BFS",
+        "C": "IDS",
+        "D": "Genetic Algorithm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 50,
+      "question": "Which statement about admissible heuristics is correct?",
+      "options": {
+        "A": "They may overestimate cost sometimes",
+        "B": "Admissible heuristics guarantee A* finds optimal solution if used with consistent heuristic assumptions",
+        "C": "They are always exact",
+        "D": "They cannot be used with A*"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "For a search problem where path-cost = 1 per step and heuristic is zero, A* reduces to:",
+      "options": {
+        "A": "Greedy Best-First",
+        "B": "Uniform Cost Search / BFS",
+        "C": "DFS",
+        "D": "Hill Climbing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "The primary goal of planning in AI is to:",
+      "options": {
+        "A": "Randomly generate actions until success",
+        "B": "Find a sequence of actions from initial to goal state subject to constraints",
+        "C": "Maximize memory usage",
+        "D": "Avoid using heuristics"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "In forward state-space planning, we expand:",
+      "options": {
+        "A": "Actions backward from the goal",
+        "B": "States from the initial state applying applicable operators",
+        "C": "Only goal states",
+        "D": "Heuristics directly"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 54,
+      "question": "Backward (goal) regression planning works by:",
+      "options": {
+        "A": "Reversing operators to find which preconditions produce current subgoals",
+        "B": "Forward simulating from start only",
+        "C": "Random action selection",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "In production systems, rules are typically represented as:",
+      "options": {
+        "A": "Neural layers",
+        "B": "Condition-action pairs (if-then)",
+        "C": "Perceptrons",
+        "D": "MDPs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "What is frame problem in AI?",
+      "options": {
+        "A": "Difficulty of representing dynamic world changes without specifying irrelevant effects",
+        "B": "Memory frame allocation issues in code",
+        "C": "Video frame processing only",
+        "D": "Exact scheduling problem"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "Which of the following is a benefit of informed search?",
+      "options": {
+        "A": "No need for heuristics",
+        "B": "Reduced number of nodes expanded using domain knowledge",
+        "C": "Always less memory than uninformed search",
+        "D": "No need for goal test"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "When combining heuristics h1 and h2, the heuristic h(n) = max(h1(n), h2(n)) is:",
+      "options": {
+        "A": "Not admissible if both are admissible",
+        "B": "Admissible if both h1 and h2 are admissible",
+        "C": "Always inconsistent",
+        "D": "Equivalent to averaging"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "question": "Which of the following is a local search method used for optimization?",
+      "options": {
+        "A": "BFS",
+        "B": "Hill climbing with random restarts",
+        "C": "A*",
+        "D": "Minimax"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "In simulated annealing, an acceptance probability for worse move p = exp(−ΔE / T). If ΔE increases or T decreases, p:",
+      "options": {
+        "A": "Increases",
+        "B": "Decreases",
+        "C": "Remains same",
+        "D": "Becomes negative"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "Which of these is a generative model?",
+      "options": {
+        "A": "Naive Bayes",
+        "B": "Perceptron",
+        "C": "KNN used discriminatively",
+        "D": "SVM (without probability estimates)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "question": "The curse of dimensionality refers to:",
+      "options": {
+        "A": "Models performing better with more features",
+        "B": "Exponential growth of volume associated with adding dimensions, making data sparse",
+        "C": "Neural networks becoming linear",
+        "D": "Probability increasing with dimension"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "In a simple perceptron with weights w and bias b, the decision boundary is:",
+      "options": {
+        "A": "A polynomial always",
+        "B": "The hyperplane defined by w·x + b = 0",
+        "C": "Non-linear always",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Which of the following is true about ReLU activation?",
+      "options": {
+        "A": "It is bounded above and below",
+        "B": "It outputs zero for negative inputs and linear for positive inputs",
+        "C": "It saturates like sigmoid",
+        "D": "Not used in modern networks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Which method is commonly used to initialize deep network weights to avoid vanishing/exploding gradients?",
+      "options": {
+        "A": "All zeros initialization",
+        "B": "Xavier/Glorot or He initialization depending on activation",
+        "C": "Random negative-only weights",
+        "D": "Incremental step initialization"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 66,
+      "question": "A heuristic that equals the actual shortest path cost is:",
+      "options": {
+        "A": "Admissible and consistent and leads A* to expand only the optimal path nodes",
+        "B": "Always inconsistent",
+        "C": "Not useful",
+        "D": "Always zero"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 67,
+      "question": "If branching factor b=3 and depth d=4, rough number of leaf nodes is:",
+      "options": {
+        "A": "3 × 4 = 12",
+        "B": "3^4 = 81",
+        "C": "4^3 = 64",
+        "D": "3 + 4 = 7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "Which of the following is true about Uniform Cost Search?",
+      "options": {
+        "A": "It expands nodes in order of increasing g(n) (path cost)",
+        "B": "It requires heuristic h(n)",
+        "C": "It always uses less memory than BFS",
+        "D": "It is only for admissible heuristics"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "question": "Which of the following is helpful to reduce branching factor?",
+      "options": {
+        "A": "Increasing depth limit only",
+        "B": "Using higher-level actions or macro-operators that combine steps",
+        "C": "Removing goal test",
+        "D": "Using random search"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "For a search problem with cycles, to ensure completeness we must:",
+      "options": {
+        "A": "Allow revisiting nodes infinitely",
+        "B": "Use cycle checking or maintain closed list of visited states",
+        "C": "Only use DFS",
+        "D": "Use inconsistent heuristics"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 71,
+      "question": "What is the main idea behind beam search?",
+      "options": {
+        "A": "Keep only a fixed number of best partial solutions at each depth to limit memory",
+        "B": "Use backpropagation at each level",
+        "C": "Expand entire frontier like BFS",
+        "D": "Use simulated annealing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "The horizon effect in game search refers to:",
+      "options": {
+        "A": "The inability to search beyond screen resolution",
+        "B": "Tactical threats just beyond fixed search depth causing misjudgment",
+        "C": "Using heuristics for long-term planning",
+        "D": "Memory overflow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "question": "Monte Carlo Tree Search (MCTS) is especially useful for:",
+      "options": {
+        "A": "Deterministic shortest path problems only",
+        "B": "Large game trees with high branching factor using randomized playouts to estimate move values",
+        "C": "Linear regression tasks",
+        "D": "Exact solutions in polynomial time"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "question": "Which of the following is an advantage of MCTS?",
+      "options": {
+        "A": "Requires perfect evaluation function",
+        "B": "Balances exploration and exploitation via UCT formula (Upper Confidence bounds applied to Trees)",
+        "C": "No randomness involved",
+        "D": "Always finds optimal move deterministically"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "question": "In expertise systems, forward chaining means:",
+      "options": {
+        "A": "Deriving goals from subgoals backward",
+        "B": "Starting with known facts and applying rules to infer new facts until goal reached",
+        "C": "Using neural networks to generalize rules",
+        "D": "Ignoring data and using heuristics only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "question": "Which of the following is typically used to represent uncertain knowledge in expert systems?",
+      "options": {
+        "A": "Deterministic if-then rules only",
+        "B": "Probabilities, certainty factors, or fuzzy logic",
+        "C": "Purely relational databases",
+        "D": "None; expert systems cannot handle uncertainty"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "The A* algorithm is optimal if the heuristic is:",
+      "options": {
+        "A": "Admissible (and tie-breaking in favor of larger g if needed)",
+        "B": "Overestimating",
+        "C": "Random",
+        "D": "Non-existent"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 78,
+      "question": "Which is true about informed local search?",
+      "options": {
+        "A": "It doesn't use heuristics",
+        "B": "It uses heuristic evaluation of neighbors to guide search and often ignores global structure",
+        "C": "It guarantees global optimum",
+        "D": "It always uses backtracking"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "Which of these is a typical measure for search algorithm performance?",
+      "options": {
+        "A": "Time complexity, space complexity, completeness, optimality",
+        "B": "Number of CPUs only",
+        "C": "Database size only",
+        "D": "Screen resolution"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 80,
+      "question": "For a robot that perceives environment perfectly and actions are deterministic, planning reduces to:",
+      "options": {
+        "A": "Probabilistic reasoning",
+        "B": "Classical planning / deterministic search for action sequences",
+        "C": "Hidden Markov Models",
+        "D": "Genetic algorithms only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 81,
+      "question": "Probability P(A|B) denotes:",
+      "options": {
+        "A": "Probability of B given A",
+        "B": "Probability of A and B both happening",
+        "C": "Probability of A given B",
+        "D": "Unconditional probability of A"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 82,
+      "question": "Bayes' theorem is given by:",
+      "options": {
+        "A": "P(A|B) = P(A) × P(B)",
+        "B": "P(A|B) = P(B|A)P(A)/P(B)",
+        "C": "P(A|B) = P(A)/P(B|A)",
+        "D": "P(A|B) = P(A) + P(B)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "question": "In a Bayesian Network, nodes represent:",
+      "options": {
+        "A": "Variables and edges denote direct dependencies (conditional dependencies)",
+        "B": "Heuristics always",
+        "C": "Only deterministic transitions",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 84,
+      "question": "Conditional independence means:",
+      "options": {
+        "A": "Two variables are independent always",
+        "B": "Two variables are independent given some other variable(s)",
+        "C": "Variables have no parents in a Bayesian network",
+        "D": "Probabilities are zero"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "question": "The Naive Bayes classifier assumes:",
+      "options": {
+        "A": "Conditional independence of features given the class",
+        "B": "Features are dependent always",
+        "C": "No prior probabilities",
+        "D": "The model is non-probabilistic"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 86,
+      "question": "Which is true about Naive Bayes?",
+      "options": {
+        "A": "It requires exponential parameters with number of features",
+        "B": "Performs well often despite strong independence assumption",
+        "C": "It cannot be used with discrete features",
+        "D": "It's always better than any other classifier"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "question": "Inference in Bayesian networks can be done using:",
+      "options": {
+        "A": "Exact methods (variable elimination) and approximate methods (sampling like Gibbs)",
+        "B": "Only exact polynomial methods always",
+        "C": "Only gradient descent",
+        "D": "Decision trees only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 88,
+      "question": "Hidden Markov Models (HMMs) are used when:",
+      "options": {
+        "A": "States are fully observable and deterministic",
+        "B": "There's a sequence of hidden states with observable outputs probabilistically emitted",
+        "C": "Only for static datasets",
+        "D": "For clustering only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 89,
+      "question": "The three canonical problems for HMMs are:",
+      "options": {
+        "A": "Filtering, prediction, and smoothing only",
+        "B": "Evaluation (likelihood), decoding (Viterbi), and learning (Baum-Welch)",
+        "C": "Gradient descent steps",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "question": "The Viterbi algorithm is used for:",
+      "options": {
+        "A": "Calculating marginal probability only",
+        "B": "Finding the single most likely sequence of hidden states given observations (decoding)",
+        "C": "Training decision trees",
+        "D": "Data normalization"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "question": "In time-series probabilistic reasoning, filtering computes:",
+      "options": {
+        "A": "Probability of past states given future observations only",
+        "B": "Belief state: P(current state | all observations up to now)",
+        "C": "The final state only",
+        "D": "The maximum-likelihood state always"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 92,
+      "question": "Smoothing is the task of:",
+      "options": {
+        "A": "Estimating earlier states given later observations (P(state_t | observations up to T))",
+        "B": "Only predicting future values",
+        "C": "Data cleaning only",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 93,
+      "question": "A Dynamic Bayesian Network (DBN) is:",
+      "options": {
+        "A": "A Bayesian network extended to sequences/time with repeated structure across time slices",
+        "B": "Only used for static problems",
+        "C": "Equivalent to a feedforward NN",
+        "D": "Always deterministic"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 94,
+      "question": "Which is a model-free reinforcement learning method?",
+      "options": {
+        "A": "Value iteration (model-based)",
+        "B": "Q-learning (learns Q-values via sampled experience without model)",
+        "C": "Policy iteration with known model",
+        "D": "Dynamic programming with full model"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 95,
+      "question": "In Q-learning, the update rule uses:",
+      "options": {
+        "A": "TD target: r + γ max_a' Q(s',a') and a learning rate α",
+        "B": "Only immediate reward r without bootstrapping",
+        "C": "Exact model transitions always",
+        "D": "Genetic mutation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 96,
+      "question": "Exploration-exploitation tradeoff can be handled by:",
+      "options": {
+        "A": "ε-greedy strategy where with probability ε choose random action else choose greedy action",
+        "B": "Always exploiting best current action only",
+        "C": "Never exploring",
+        "D": "Random only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 97,
+      "question": "Which of the following is true about policy gradients?",
+      "options": {
+        "A": "They optimize parametrized policies directly via gradient ascent on expected return",
+        "B": "They require tabular Q only",
+        "C": "They are model-based exclusively",
+        "D": "They don't use samples"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 98,
+      "question": "Monte Carlo methods for RL rely on:",
+      "options": {
+        "A": "Bootstrapping only",
+        "B": "Sampling entire episodes to estimate returns without bootstrapping",
+        "C": "Exact knowledge of transition probabilities",
+        "D": "Only deterministic policies"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 99,
+      "question": "In multi-agent systems, cooperative agents aim to:",
+      "options": {
+        "A": "Maximize individual reward only",
+        "B": "Maximize a shared team utility or coordinate actions to reach joint goals",
+        "C": "Ignore others",
+        "D": "Randomly act"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "question": "Behavior trees in games are:",
+      "options": {
+        "A": "A reactive control structure expressing hierarchical behaviors and easy authoring for game AI",
+        "B": "Only planning algorithms",
+        "C": "Neural networks for movement",
+        "D": "A search algorithm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 101,
+      "question": "Pathfinding in games commonly uses:",
+      "options": {
+        "A": "A* with grid/graph representation and heuristics like Manhattan or Euclidean distances",
+        "B": "Naive Bayes classifier",
+        "C": "HMMs only",
+        "D": "Clustering"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "Steering behaviors (seek, flee, arrive, wander) are used for:",
+      "options": {
+        "A": "Pathfinding without physics constraints only",
+        "B": "Local motion control for agents to produce realistic movement in continuous spaces",
+        "C": "Probabilistic inference",
+        "D": "Deterministic planning only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "question": "Monte Carlo Tree Search (MCTS) uses which four steps repeatedly?",
+      "options": {
+        "A": "Initialize, Terminate, Prune, Output",
+        "B": "Selection, Expansion, Simulation (playout), Backpropagation of results",
+        "C": "Heuristic, Gradient, Update, Repeat",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "The Upper Confidence Bound (UCB) used in MCTS balances:",
+      "options": {
+        "A": "Only exploitation",
+        "B": "Exploration and exploitation trade-off in selecting nodes to expand",
+        "C": "Only exploration always",
+        "D": "Pure randomness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "Which of the following is an on-policy RL method?",
+      "options": {
+        "A": "Q-learning (off-policy)",
+        "B": "SARSA (on-policy)",
+        "C": "Value iteration (model-based)",
+        "D": "Dijkstra's algorithm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "In classification with imbalanced classes, which technique helps?",
+      "options": {
+        "A": "Using accuracy only as metric",
+        "B": "Resampling (oversample minority, undersample majority) or using metrics like F1 score and AUC",
+        "C": "Removing minority class entirely",
+        "D": "Always use Naive Bayes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Probabilistic graphical models are useful because:",
+      "options": {
+        "A": "They provide compact factorization of joint distributions using conditional independencies",
+        "B": "They always need full joint tables explicitly",
+        "C": "They are only visual tools with no inference algorithms",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 108,
+      "question": "The expectation-maximization (EM) algorithm is used to:",
+      "options": {
+        "A": "Compute gradients exactly",
+        "B": "Estimate parameters in models with latent variables by alternating expectation and maximization steps",
+        "C": "Solve deterministic planning problems",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 109,
+      "question": "Which of the following is true about Baum-Welch algorithm?",
+      "options": {
+        "A": "It is an instance of EM applied to HMMs for learning transition and emission probabilities from data",
+        "B": "It calculates shortest path in a graph",
+        "C": "It is used for clustering only",
+        "D": "It is a supervised classification algorithm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "In a Bayesian network, exact inference is intractable in general because:",
+      "options": {
+        "A": "Variables are always independent",
+        "B": "Complexity can be exponential in the treewidth of the graph",
+        "C": "There is no way to represent conditional probabilities",
+        "D": "Graphs are always cyclic"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "question": "Kalman filters are used for:",
+      "options": {
+        "A": "Discrete state spaces only",
+        "B": "Linear dynamical systems with Gaussian noise for continuous state estimation",
+        "C": "Static classification problems",
+        "D": "Clustering"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "Which of these is a continuous analog of HMM with Gaussian assumptions?",
+      "options": {
+        "A": "Naive Bayes",
+        "B": "Linear dynamical system / Kalman filter",
+        "C": "Q-learning",
+        "D": "Decision tree"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "In a filtering problem P(x_t | e_1:t) denotes:",
+      "options": {
+        "A": "Distribution over current hidden state given observations up to time t",
+        "B": "Probability of future only",
+        "C": "Likelihood without normalization",
+        "D": "Deterministic state only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "The forward algorithm in HMMs computes:",
+      "options": {
+        "A": "The most likely hidden state sequence only",
+        "B": "The probability of observing the prefix of observations and ending in each state (forward messages)",
+        "C": "The backward pass of smoothing only",
+        "D": "Learning the model parameters only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "question": "Which method is used for approximate inference in large graphical models?",
+      "options": {
+        "A": "Exact variable elimination always",
+        "B": "Sampling methods like Gibbs sampling, importance sampling, and variational approximations",
+        "C": "Only gradient descent",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "Which is true about Gibbs sampling?",
+      "options": {
+        "A": "It updates all variables simultaneously",
+        "B": "It samples each variable conditional on current values of other variables sequentially to approximate full joint",
+        "C": "It gives exact posterior in one iteration",
+        "D": "It requires deterministic models only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "In a gridworld RL environment, if reward is +10 at goal and −1 per step, discount γ = 0.9, a one-step lookahead from a state with immediate next state leading directly to goal gives expected return:",
+      "options": {
+        "A": "10 only",
+        "B": "−1 + 0.9 × 10 = −1 + 9 = 8",
+        "C": "0.9 only",
+        "D": "10 + 0.9"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "Temporal Difference (TD) learning updates value estimates using:",
+      "options": {
+        "A": "Only Monte Carlo returns after episodes",
+        "B": "Bootstrapped estimate combining current reward and estimated value of next state (TD target)",
+        "C": "Exact model dynamics",
+        "D": "No reward signals"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "Which of the following is true about function approximation in RL?",
+      "options": {
+        "A": "It helps generalize to unseen states but can introduce instability with off-policy learning",
+        "B": "It is always stable and convergent in all settings",
+        "C": "Tabular methods are a subset of function approximation always",
+        "D": "It cannot use neural networks"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "The curse of dimensionality in RL refers to:",
+      "options": {
+        "A": "High-dimensional state/action spaces making tabular methods infeasible",
+        "B": "Always solving problems faster",
+        "C": "Reducing sample complexity",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 121,
+      "question": "Behavior cloning in games involves:",
+      "options": {
+        "A": "Learning policy from expert demonstrations (supervised learning of actions given states)",
+        "B": "Genetic evolution of behaviors",
+        "C": "Random behavior synthesis only",
+        "D": "Using HMMs for pathfinding"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 122,
+      "question": "In multi-agent reinforcement learning, centralized training with decentralized execution means:",
+      "options": {
+        "A": "Agents are trained independently always",
+        "B": "Training can use global information but at execution each agent acts with local observations",
+        "C": "Only centralized execution allowed",
+        "D": "Agents never share experience"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "Which algorithm is suitable for continuous action spaces?",
+      "options": {
+        "A": "Tabular Q-learning only",
+        "B": "Policy gradient methods like DDPG, PPO, or actor-critic methods",
+        "C": "Minimax",
+        "D": "Decision trees only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "Which of the following is an advantage of actor-critic methods?",
+      "options": {
+        "A": "They combine value (critic) for variance reduction with policy (actor) for direct action selection",
+        "B": "They eliminate need for reward signals",
+        "C": "They converge in one update always",
+        "D": "They do not work with continuous actions"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 125,
+      "question": "In game AI, utility-based agents:",
+      "options": {
+        "A": "Select actions based on maximizing a utility function reflecting agent's preferences",
+        "B": "Randomly pick actions only",
+        "C": "Use only rule-based systems",
+        "D": "Cannot handle tradeoffs"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 126,
+      "question": "Which of the following is an evaluation metric robust to class imbalance?",
+      "options": {
+        "A": "Accuracy only",
+        "B": "Precision, Recall, F1-score, and AUC are more informative than accuracy in imbalanced settings",
+        "C": "Always use MSE",
+        "D": "Use only raw counts"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "question": "Which of the following is true about Monte Carlo Tree Search used in Go (AlphaGo style)?",
+      "options": {
+        "A": "It requires a good policy/value network to guide playouts and reduce search complexity",
+        "B": "It only uses raw random playouts always",
+        "C": "It is deterministic only",
+        "D": "It cannot be combined with neural networks"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 128,
+      "question": "Which of the following best describes rollout policy in MCTS?",
+      "options": {
+        "A": "A policy used during simulation/playout to estimate the value of leaf nodes",
+        "B": "The final policy after training",
+        "C": "A supervised classifier for states",
+        "D": "A deterministic planner"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 129,
+      "question": "Which technique helps handle partial observability in multi-agent games?",
+      "options": {
+        "A": "Using full state knowledge only",
+        "B": "Belief states and POMDP formulations or communication between agents when allowed",
+        "C": "Ignoring uncertainty",
+        "D": "Deterministic planning"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 130,
+      "question": "Which of the following is true about transfer learning?",
+      "options": {
+        "A": "Reusing representations or models trained on one task to improve learning on related task is transfer learning",
+        "B": "It always fails when tasks are related",
+        "C": "It requires training from scratch every time",
+        "D": "It is only for supervised classification"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 131,
+      "question": "The Bayes filter recursion consists of prediction and update steps. Prediction uses:",
+      "options": {
+        "A": "Observation model only",
+        "B": "Transition model to predict new belief, then update uses observation to correct it",
+        "C": "No model at all",
+        "D": "Only rewards"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 132,
+      "question": "Which of these is an example of model-based RL?",
+      "options": {
+        "A": "Q-learning without model",
+        "B": "Dyna-Q which uses learned model for planning along with model-free updates",
+        "C": "Pure policy gradient always",
+        "D": "Random search"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "question": "In a probabilistic robotics setting, particle filters are used for:",
+      "options": {
+        "A": "Exact filtering in linear Gaussian models only",
+        "B": "Approximating posterior distributions over continuous states using a set of weighted samples (particles)",
+        "C": "Deterministic planning always",
+        "D": "Clustering sensor data only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "question": "Which of the following is a disadvantage of sampling-based approximate inference?",
+      "options": {
+        "A": "They give exact posteriors in constant time",
+        "B": "They can be slow to converge and suffer from high variance",
+        "C": "They require closed form integrals always",
+        "D": "They don't work for large models"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "question": "Which statement about Naive Bayes in text classification is true?",
+      "options": {
+        "A": "It assumes word independence conditional on class and often performs well in practice despite that simplification",
+        "B": "It cannot be used for spam detection",
+        "C": "It always outperforms deep learning",
+        "D": "It requires images"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 136,
+      "question": "For a Bernoulli Naive Bayes classifier, feature likelihoods are modeled as:",
+      "options": {
+        "A": "Gaussian distributions",
+        "B": "Bernoulli distributions (presence/absence) for each word feature",
+        "C": "Poisson only",
+        "D": "Dirichlet exclusively"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "question": "Ensemble methods like bagging reduce variance by:",
+      "options": {
+        "A": "Averaging over multiple models trained on bootstrap samples of data",
+        "B": "Increasing model bias only",
+        "C": "Using single large model only",
+        "D": "Removing randomness"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 138,
+      "question": "Boosting algorithms (like AdaBoost) primarily:",
+      "options": {
+        "A": "Combine weak learners into a stronger learner by focusing on previously misclassified examples",
+        "B": "Randomly ignore misclassifications",
+        "C": "Decrease model capacity always",
+        "D": "Are only used for clustering"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 139,
+      "question": "Cross-validation is primarily used to:",
+      "options": {
+        "A": "Train final model without hyperparameter selection",
+        "B": "Estimate generalization performance and tune hyperparameters by splitting data into folds",
+        "C": "Increase training error only",
+        "D": "Avoid using test sets forever"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "question": "Which of the following is a reason to use function approximation in RL?",
+      "options": {
+        "A": "Tabular methods scale well to continuous high-dimensional spaces",
+        "B": "To generalize across similar states and handle large/continuous state spaces",
+        "C": "To avoid using neural networks only",
+        "D": "To always achieve exact convergence in all settings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 141,
+      "question": "In policy evaluation, the Bellman expectation equation for V^π(s) expresses:",
+      "options": {
+        "A": "V^π(s) = max_a [R(s,a) + γ Σ_{s'} P(s'|s,a) V^π(s')]",
+        "B": "V^π(s) = Σ_a π(a|s)[R(s,a) + γ Σ_{s'} P(s'|s,a) V^π(s')]",
+        "C": "V^π(s) = R(s) only",
+        "D": "Contains no transition probabilities"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 142,
+      "question": "The softmax policy parametrization ensures:",
+      "options": {
+        "A": "Deterministic policy always",
+        "B": "A differentiable mapping from preferences to action probabilities that sums to 1",
+        "C": "Negative probabilities allowed",
+        "D": "Not usable with policy gradients"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 143,
+      "question": "In a 2-player zero-sum game, Nash equilibrium corresponds to:",
+      "options": {
+        "A": "A pair of strategies where no player can unilaterally improve their payoff given the other's strategy",
+        "B": "One player always winning",
+        "C": "Random action selection only",
+        "D": "Only single-player optimization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 144,
+      "question": "Which of the following is true about exploration in deep RL?",
+      "options": {
+        "A": "Exploration is trivial and not required",
+        "B": "Efficient exploration remains a major challenge and can be aided by intrinsic motivation or curiosity bonuses",
+        "C": "Exploration is only relevant for supervised learning",
+        "D": "Deterministic policies always explore"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 145,
+      "question": "In imitation learning, dataset aggregation (DAgger) improves performance by:",
+      "options": {
+        "A": "Aggregating expert data and states visited by learned policy, iteratively querying expert to label them, reducing compounding errors",
+        "B": "Removing expert supervision entirely at start",
+        "C": "Only using random policies",
+        "D": "Avoiding iterative updates"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "In evaluation of RL agents, sample efficiency refers to:",
+      "options": {
+        "A": "The ability to learn good policies with fewer environment interactions (samples)",
+        "B": "The amount of memory used",
+        "C": "The maximal reward possible only",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 147,
+      "question": "In probabilistic planning, POMDP stands for:",
+      "options": {
+        "A": "Partially Observable Markov Decision Process used when agent has noisy/partial observations about state",
+        "B": "Perfectly Observable MDP always",
+        "C": "Probabilistic Only Markov Deterministic Process",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 148,
+      "question": "Which of the following best describes belief state in POMDPs?",
+      "options": {
+        "A": "The true hidden state always known",
+        "B": "A probability distribution over world states representing the agent's belief given observations and actions",
+        "C": "A deterministic map from observation to action only",
+        "D": "Always uniform"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 149,
+      "question": "Which of the following is true about hierarchical RL?",
+      "options": {
+        "A": "Breaking tasks into temporally extended actions (options) can speed learning and improve transfer across tasks",
+        "B": "It eliminates need for reward signals",
+        "C": "It only reduces performance always",
+        "D": "It is identical to flat RL"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 150,
+      "question": "In training a game agent that must both plan and react, a hybrid approach combining deliberative planning (A*, MCTS) and reactive behaviors (steering, FSMs) is used because:",
+      "options": {
+        "A": "It combines long-term strategic reasoning with fast local control for robustness in dynamic environments",
+        "B": "Planning is always better than reaction only",
+        "C": "Reaction is always better than planning only",
+        "D": "They never mix in practice"
+      },
+      "answer": "A"
+    }
+  ]
+}
+    
+
