@@ -5,6 +5,7 @@ import Leaderboard from './components/LeaderBoard';
 import EnrollmentModal from './components/EnrollmentModal';
 import ScoreCard from './components/ScoreCard';
 import QUIZ_CONFIGS from './config/quizzes';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 // IMPORTANT: Make sure your quiz data JSON is in the public/data/ folder
 // e.g., public/data/cset381.json
@@ -106,6 +107,7 @@ function App() {
 
   return (
     <>
+     <SpeedInsights />
       {currentView === 'home' && (
         <HomePage
           onStartQuiz={handleStartQuiz}

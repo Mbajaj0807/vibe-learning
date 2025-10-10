@@ -3,7 +3,7 @@ import QuestionCard from './QuestionCard';
 import ExitConfirmationModal from './ExitConfirmationModal';
 import api from '../utils/api';
 
-const QuizPage = ({ quizId, quizConfig, questions, onComplete, enrollment }) => {
+const QuizPage = ({ quizId, questions, onComplete, enrollment }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [isCompleted, setIsCompleted] = useState(false);
@@ -19,6 +19,7 @@ const QuizPage = ({ quizId, quizConfig, questions, onComplete, enrollment }) => 
     const initScore = async () => {
       try {
         await api.submitScore(enrollment, 0, quizId);
+        console.log('Initialized leaderboard entry with score 0');
       } catch (err) {
         console.error('Failed to initialize leaderboard entry:', err);
       }
