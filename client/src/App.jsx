@@ -87,22 +87,22 @@ function App() {
     setFinalScore(0);
   };
 
-  const handleRetryQuiz = async () => {
-    if (selectedQuizId) {
-      try {
-        const quizConfig = QUIZ_CONFIGS[selectedQuizId];
-        const response = await fetch(`/data/${quizConfig.dataFile}.json`);
-        const data = await response.json();
-        // Extract quiz array from the JSON structure
-        const questions = data.quiz || data;
-        setQuizQuestions(questions);
-        setCurrentView('quiz');
-      } catch (error) {
-        console.error('Failed to load quiz questions:', error);
-        alert('Failed to load quiz. Please try again.');
-      }
-    }
-  };
+//   const handleRetryQuiz = async () => {
+//     if (selectedQuizId) {
+//       try {
+//         const quizConfig = QUIZ_CONFIGS[selectedQuizId];
+//         const response = await fetch(`/data/${quizConfig.dataFile}.json`);
+//         const data = await response.json();
+//         // Extract quiz array from the JSON structure
+//         const questions = data.quiz || data;
+//         setQuizQuestions(questions);
+//         setCurrentView('quiz');
+//       } catch (error) {
+//         console.error('Failed to load quiz questions:', error);
+//         alert('Failed to load quiz. Please try again.');
+//       }
+//     }
+//   };
 
   return (
     <>

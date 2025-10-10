@@ -40,7 +40,7 @@ const Leaderboard = ({ quizId, quizConfig, onBack }) => {
           {loading ? (
             <div className="p-12 text-center">
               <div className="animate-spin rounded-full h-16 w-16 border-b-4 border-blue-500 mx-auto"></div>
-              <p className="text-blue-300 mt-4">Loading leaderboard...</p>
+              <p className="text-blue-300 mt-4">Loading leaderboard...Wait Free wala Server hai</p>
             </div>
           ) : error ? (
             <div className="p-8 text-center text-red-400">

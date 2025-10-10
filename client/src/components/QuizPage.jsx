@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef ,useEffect} from 'react';
 import QuestionCard from './QuestionCard';
 import ExitConfirmationModal from './ExitConfirmationModal';
 import api from '../utils/api';
@@ -14,6 +14,17 @@ const QuizPage = ({ quizId, quizConfig, questions, onComplete, enrollment }) => 
   const [questionStatus, setQuestionStatus] = useState(
     questions.map(() => ({ status: 'unattempted', selectedOption: null }))
   );
+
+    useEffect(() => {
+    const initScore = async () => {
+      try {
+        await api.submitScore(enrollment, 0, quizId);
+      } catch (err) {
+        console.error('Failed to initialize leaderboard entry:', err);
+      }
+    };
+    initScore();
+  }, [enrollment, quizId]);
 
   const finishQuiz = async (finalScore) => {
     setIsCompleted(true);

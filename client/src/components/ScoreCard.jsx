@@ -1,4 +1,4 @@
-import { Trophy, Home, RotateCcw } from 'lucide-react';
+import { Trophy, Home } from 'lucide-react';
 
 
 const ScoreCard = ({ score, totalQuestions, onHome, quizTitle }) => {

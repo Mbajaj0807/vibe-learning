@@ -4,7 +4,7 @@ const EnrollmentModal = ({ onSubmit, onClose, initialEnrollment }) => {
   const [enrollment, setEnrollment] = useState(initialEnrollment || '');
 
   const handleSubmit = () => {
-    if(enrollment.slice(0,6).toLowerCase() != 'e23cseu' && enrollment.length != 11) {
+    if(enrollment.slice(0,6).toLowerCase() !== 'e23cseu' && enrollment.length !== 11) {
       alert('Please enter a valid enrollment number.');
       return;
     }
