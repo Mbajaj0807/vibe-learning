@@ -1,0 +1,15 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Question",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "answer": "A"
+    }
+]
+}

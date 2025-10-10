@@ -32,10 +32,7 @@ const HomePage = ({ onStartQuiz, onViewLeaderboard, quizzesConfig }) => {
                   <span className="text-2xl">📚</span>
                   <span className="font-medium">{quiz.questions} Questions</span>
                 </p>
-                <p className="text-sm text-blue-200 flex items-center gap-2">
-                  <span className="text-2xl">⏱️</span>
-                  <span className="font-medium">{quiz.timePerQuestion} sec/question</span>
-                </p>
+               
               </div>
 
               <button
