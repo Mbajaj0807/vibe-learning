@@ -30,6 +30,14 @@ const QUIZ_CONFIGS = {
     
     dataFile: 'cset302',
     questions: 0
+  },
+  cset358: {
+    id: 'cset358',
+    title: 'CSET358',
+    subtitle: 'Cloud Computing',
+
+    dataFile: 'cset358',
+    questions: 0
   }
   // Add more quiz configs here
 };

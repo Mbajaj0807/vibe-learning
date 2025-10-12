@@ -1,0 +1,1656 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "According to NIST, cloud computing enables access to a shared pool of configurable computing resources with what characteristic?",
+      "options": {
+        "A": "Requires manual configuration for each request",
+        "B": "On-demand network access",
+        "C": "Only accessible via private networks",
+        "D": "Limited resource scalability"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a characteristic of cloud computing?",
+      "options": {
+        "A": "On-demand self-service",
+        "B": "Broad network access",
+        "C": "Manual provisioning",
+        "D": "Measured service"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "What is the main goal of rapid elasticity in cloud computing?",
+      "options": {
+        "A": "Provide fixed resource allocation",
+        "B": "Automatically scale resources to meet demand",
+        "C": "Ensure constant uptime",
+        "D": "Limit data access"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Which deployment model combines public and private clouds?",
+      "options": {
+        "A": "Community Cloud",
+        "B": "Hybrid Cloud",
+        "C": "Public Cloud",
+        "D": "Private Cloud"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Which service model provides complete software solutions over the internet?",
+      "options": {
+        "A": "IaaS",
+        "B": "PaaS",
+        "C": "SaaS",
+        "D": "FaaS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is an example of Platform as a Service (PaaS)?",
+      "options": {
+        "A": "AWS EC2",
+        "B": "Google App Engine",
+        "C": "Microsoft 365",
+        "D": "Dropbox"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Which deployment model provides exclusive access to one organization?",
+      "options": {
+        "A": "Public Cloud",
+        "B": "Private Cloud",
+        "C": "Hybrid Cloud",
+        "D": "Community Cloud"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a major benefit of cloud computing?",
+      "options": {
+        "A": "High upfront costs",
+        "B": "Limited scalability",
+        "C": "Pay-as-you-go pricing",
+        "D": "Manual updates"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "In cloud computing, resource pooling primarily supports which concept?",
+      "options": {
+        "A": "Single-user access",
+        "B": "Multi-tenancy",
+        "C": "Hardware dependence",
+        "D": "Limited access"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Which is a common challenge in cloud computing?",
+      "options": {
+        "A": "Unlimited control over hardware",
+        "B": "Security and compliance issues",
+        "C": "No dependency on the internet",
+        "D": "Zero downtime"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "What does cloud migration involve?",
+      "options": {
+        "A": "Moving data from one user to another",
+        "B": "Transferring digital assets to a cloud environment",
+        "C": "Deleting old applications",
+        "D": "Shutting down on-prem servers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Which cloud migration type involves redesigning applications to use cloud-native features?",
+      "options": {
+        "A": "Rehosting",
+        "B": "Replatforming",
+        "C": "Refactoring",
+        "D": "Repurchasing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question": "Which migration type is also known as 'Lift and Shift'?",
+      "options": {
+        "A": "Rehosting",
+        "B": "Refactoring",
+        "C": "Replatforming",
+        "D": "Retiring"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "Which step in cloud migration focuses on inventorying systems and evaluating dependencies?",
+      "options": {
+        "A": "Assessment",
+        "B": "Planning",
+        "C": "Migration",
+        "D": "Optimization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Vendor lock-in refers to:",
+      "options": {
+        "A": "Freedom to switch providers anytime",
+        "B": "Dependency on a single provider’s ecosystem",
+        "C": "Using multiple cloud providers simultaneously",
+        "D": "Data migration between users"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is a difference between On-premises IT and On-Cloud IT?",
+      "options": {
+        "A": "On-premises uses pay-as-you-go model",
+        "B": "Cloud IT requires no internet",
+        "C": "On-premises needs upfront investment",
+        "D": "Cloud IT has limited scalability"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "In On-Cloud IT, disaster recovery is usually:",
+      "options": {
+        "A": "Manual",
+        "B": "Unavailable",
+        "C": "Automated and built-in",
+        "D": "Only local"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "Which component manages virtual machines in virtualization?",
+      "options": {
+        "A": "Hypervisor",
+        "B": "Load Balancer",
+        "C": "API Gateway",
+        "D": "Router"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Which type of hypervisor runs directly on hardware?",
+      "options": {
+        "A": "Type 1",
+        "B": "Type 2",
+        "C": "Type 3",
+        "D": "Hosted Hypervisor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "VMware Workstation is an example of which type of hypervisor?",
+      "options": {
+        "A": "Type 1",
+        "B": "Type 2",
+        "C": "Bare-metal",
+        "D": "Hybrid"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "question": "Server virtualization divides:",
+      "options": {
+        "A": "A single VM into many OSs",
+        "B": "A physical server into multiple virtual machines",
+        "C": "Multiple storage disks into one",
+        "D": "Applications into smaller files"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "Which type of virtualization abstracts networking components?",
+      "options": {
+        "A": "Server Virtualization",
+        "B": "Network Virtualization",
+        "C": "Application Virtualization",
+        "D": "Storage Virtualization"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Which benefit of virtualization allows multiple isolated environments on one host?",
+      "options": {
+        "A": "Isolation",
+        "B": "Duplication",
+        "C": "Fragmentation",
+        "D": "Segmentation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "What is a Virtual Cluster primarily composed of?",
+      "options": {
+        "A": "Only physical servers",
+        "B": "Virtual machines connected through virtual networks",
+        "C": "Multiple users sharing storage",
+        "D": "Data-only storage nodes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "Which node in a virtual cluster handles job scheduling?",
+      "options": {
+        "A": "Worker Node",
+        "B": "Master Node",
+        "C": "Storage Node",
+        "D": "Client Node"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Which virtualization tool is commonly used to create base VM images?",
+      "options": {
+        "A": "Docker",
+        "B": "VirtualBox",
+        "C": "GitHub",
+        "D": "Redis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "What is the main difference between a Classic Data Centre (CDC) and a Virtualized Data Centre (VDC)?",
+      "options": {
+        "A": "CDC uses physical servers, VDC uses virtual machines",
+        "B": "Both use only cloud resources",
+        "C": "VDC is managed manually, CDC is automated",
+        "D": "CDC is cheaper than VDC"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Which component in a VDC manages multiple VMs on a host?",
+      "options": {
+        "A": "Orchestration Tool",
+        "B": "Hypervisor",
+        "C": "Virtual Network",
+        "D": "Monitoring System"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Which feature enables multiple users to securely share the same VDC infrastructure?",
+      "options": {
+        "A": "High Customization",
+        "B": "Multi-tenancy",
+        "C": "Manual Management",
+        "D": "Limited Access"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is a benefit of a VDC over a CDC?",
+      "options": {
+        "A": "More manual control",
+        "B": "Higher energy efficiency",
+        "C": "Less automation",
+        "D": "Lower scalability"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "question": "Which device in a VDC distributes traffic across servers?",
+      "options": {
+        "A": "Virtual Router",
+        "B": "Virtual Load Balancer",
+        "C": "Virtual Bridge",
+        "D": "Virtual NIC"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Which virtual device assigns IP addresses to VMs dynamically?",
+      "options": {
+        "A": "Virtual DHCP Server",
+        "B": "Virtual NAT Device",
+        "C": "Virtual Switch",
+        "D": "Virtual Bridge"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "Compute resources include which of the following?",
+      "options": {
+        "A": "CPU and RAM",
+        "B": "Cables and Routers",
+        "C": "Storage Disks only",
+        "D": "Power Supply"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Which type of compute resource provides OS-level virtualization?",
+      "options": {
+        "A": "Physical Server",
+        "B": "Virtual Machine",
+        "C": "Container",
+        "D": "Serverless Function"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "question": "Which compute resource type runs code without managing servers?",
+      "options": {
+        "A": "Virtual Machine",
+        "B": "Container",
+        "C": "Serverless Function",
+        "D": "Dedicated Server"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 36,
+      "question": "Which storage type stores data in fixed-size blocks?",
+      "options": {
+        "A": "File Storage",
+        "B": "Object Storage",
+        "C": "Block Storage",
+        "D": "Cloud Storage"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 37,
+      "question": "Which storage type is best suited for backups and media files?",
+      "options": {
+        "A": "Object Storage",
+        "B": "File Storage",
+        "C": "Block Storage",
+        "D": "Local Storage"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "question": "Which is a key difference between Cloud Infrastructure and Cloud Architecture?",
+      "options": {
+        "A": "Infrastructure defines how resources interact",
+        "B": "Architecture focuses on hardware only",
+        "C": "Infrastructure is about physical resources, architecture is about design and integration",
+        "D": "Both are identical concepts"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "question": "In cloud architecture, which aspect ensures applications remain available during failures?",
+      "options": {
+        "A": "Elasticity",
+        "B": "Redundancy",
+        "C": "Scalability",
+        "D": "Virtualization"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Which design issue addresses handling fluctuating workloads?",
+      "options": {
+        "A": "Security & Privacy",
+        "B": "Scalability & Elasticity",
+        "C": "Interoperability",
+        "D": "Cost Management"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "Which issue focuses on protecting data and ensuring compliance in cloud design?",
+      "options": {
+        "A": "Performance Optimization",
+        "B": "Security & Privacy",
+        "C": "Reliability",
+        "D": "Multi-tenancy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "What is the main goal of reliability and fault tolerance in cloud architecture?",
+      "options": {
+        "A": "Minimize costs",
+        "B": "Prevent downtime during failures",
+        "C": "Reduce latency",
+        "D": "Improve accessibility"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "question": "Which design issue deals with avoiding dependence on a single provider?",
+      "options": {
+        "A": "Interoperability",
+        "B": "Compliance",
+        "C": "Cost Management",
+        "D": "Scalability"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "What is the purpose of cost management in cloud deployment?",
+      "options": {
+        "A": "Increase resource redundancy",
+        "B": "Optimize spending using right-sizing and alerts",
+        "C": "Maximize uptime at any cost",
+        "D": "Ignore low-usage periods"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "Which example illustrates performance optimization in cloud design?",
+      "options": {
+        "A": "Using CDN for faster delivery",
+        "B": "Turning off encryption",
+        "C": "Disabling load balancers",
+        "D": "Running all workloads in one region"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "In cloud design, which term refers to isolating tenants to protect their data?",
+      "options": {
+        "A": "Multi-tenancy",
+        "B": "Encryption",
+        "C": "Data pooling",
+        "D": "Interoperability"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "Which example represents reliability in the cloud?",
+      "options": {
+        "A": "Using a single zone setup",
+        "B": "Multi-region failover",
+        "C": "Manual scaling",
+        "D": "Unencrypted data transfers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "Which cloud provider offers EC2 and S3 services?",
+      "options": {
+        "A": "Google Cloud",
+        "B": "IBM Cloud",
+        "C": "AWS",
+        "D": "Oracle Cloud"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 49,
+      "question": "Which concept in cloud infrastructure ensures resources are shared among users?",
+      "options": {
+        "A": "Isolation",
+        "B": "Resource Pooling",
+        "C": "Encapsulation",
+        "D": "Partitioning"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "question": "Which scaling type involves adding more instances rather than increasing power of one?",
+      "options": {
+        "A": "Vertical Scaling",
+        "B": "Horizontal Scaling",
+        "C": "Downscaling",
+        "D": "Elastic Scaling"
+      },
+      "answer": "B"
+    }
+    ,
+    {
+      "id": 51,
+      "question": "Which scaling type increases the capacity of existing virtual machines?",
+      "options": {
+        "A": "Horizontal Scaling",
+        "B": "Vertical Scaling",
+        "C": "Diagonal Scaling",
+        "D": "Elastic Scaling"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "Which storage system uses metadata and unique identifiers to manage data?",
+      "options": {
+        "A": "File Storage",
+        "B": "Object Storage",
+        "C": "Block Storage",
+        "D": "Tape Storage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "Which cloud storage type organizes data hierarchically using folders and paths?",
+      "options": {
+        "A": "Block Storage",
+        "B": "Object Storage",
+        "C": "File Storage",
+        "D": "Tape Storage"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "question": "Which protocol is primarily used in cloud storage for data transfer?",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP/HTTPS",
+        "C": "SMTP",
+        "D": "IMAP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "Which layer of cloud networking ensures packet delivery between data centers?",
+      "options": {
+        "A": "Access Layer",
+        "B": "Core Layer",
+        "C": "Distribution Layer",
+        "D": "Application Layer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "Which network virtualization component allows logical networks to run over physical ones?",
+      "options": {
+        "A": "Virtual Switch",
+        "B": "Overlay Network",
+        "C": "Hypervisor",
+        "D": "Router"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "question": "Which virtual networking device connects multiple VMs within the same host?",
+      "options": {
+        "A": "Virtual Router",
+        "B": "Virtual Switch",
+        "C": "Virtual Bridge",
+        "D": "Load Balancer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "Which component of a Software Defined Network (SDN) defines control policies?",
+      "options": {
+        "A": "Control Plane",
+        "B": "Data Plane",
+        "C": "Application Plane",
+        "D": "Physical Plane"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "In SDN, which layer handles packet forwarding?",
+      "options": {
+        "A": "Control Layer",
+        "B": "Application Layer",
+        "C": "Data Plane",
+        "D": "Management Plane"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "Which tool allows network administrators to define behavior programmatically in SDN?",
+      "options": {
+        "A": "API",
+        "B": "Firewall",
+        "C": "Router Table",
+        "D": "Protocol Stack"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Which feature of SDN enables central management of network traffic?",
+      "options": {
+        "A": "Decentralized Control",
+        "B": "Centralized Control Plane",
+        "C": "Static Routing",
+        "D": "Manual Configuration"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "Which cloud service offers private network connectivity between on-premises and cloud?",
+      "options": {
+        "A": "CloudFront",
+        "B": "Direct Connect",
+        "C": "CloudFormation",
+        "D": "CloudTrail"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "Which technology enables multiple virtual networks to share the same physical infrastructure?",
+      "options": {
+        "A": "Network Virtualization",
+        "B": "Server Virtualization",
+        "C": "Application Virtualization",
+        "D": "Database Virtualization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "What does QoS in cloud networking stand for?",
+      "options": {
+        "A": "Quantity of Storage",
+        "B": "Quality of Service",
+        "C": "Queue of Servers",
+        "D": "Quota of Sessions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Which parameter is used to measure cloud network performance?",
+      "options": {
+        "A": "Latency",
+        "B": "Encryption Level",
+        "C": "API Calls",
+        "D": "User IDs"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "Load balancing helps in improving:",
+      "options": {
+        "A": "System latency",
+        "B": "Fault tolerance and scalability",
+        "C": "Storage capacity",
+        "D": "Manual configuration"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "Which load balancing algorithm distributes requests in circular order?",
+      "options": {
+        "A": "Least Connection",
+        "B": "Round Robin",
+        "C": "Weighted Round Robin",
+        "D": "Random Allocation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "The least connection algorithm is best suited for:",
+      "options": {
+        "A": "Long-running connections",
+        "B": "Static workloads",
+        "C": "Unpredictable CPU usage",
+        "D": "Short-lived requests"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "question": "Which type of load balancer operates at the transport layer?",
+      "options": {
+        "A": "Layer 4 Load Balancer",
+        "B": "Layer 7 Load Balancer",
+        "C": "DNS Load Balancer",
+        "D": "Software Load Balancer"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "What does DNS-based load balancing distribute?",
+      "options": {
+        "A": "Network packets",
+        "B": "Domain name requests",
+        "C": "Data blocks",
+        "D": "Application containers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 71,
+      "question": "Which cloud load balancing method routes traffic based on URL or headers?",
+      "options": {
+        "A": "Transport Layer Balancing",
+        "B": "Application Layer Balancing",
+        "C": "Round Robin",
+        "D": "Weighted Routing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "question": "What is the main goal of resource provisioning in the cloud?",
+      "options": {
+        "A": "Assign tasks manually",
+        "B": "Allocate resources based on demand",
+        "C": "Increase latency",
+        "D": "Reduce automation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "question": "Which provisioning method uses predefined templates to create VMs?",
+      "options": {
+        "A": "Dynamic Provisioning",
+        "B": "Static Provisioning",
+        "C": "Template-based Provisioning",
+        "D": "Manual Provisioning"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 74,
+      "question": "Dynamic resource provisioning allows:",
+      "options": {
+        "A": "Manual scaling only",
+        "B": "Automatic resource allocation",
+        "C": "Fixed resource usage",
+        "D": "One-time allocation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "question": "Which virtualization management tool is provided by VMware?",
+      "options": {
+        "A": "vCenter",
+        "B": "Hyper-V",
+        "C": "XenCenter",
+        "D": "Docker Hub"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 76,
+      "question": "Which virtualization management tool is associated with Microsoft?",
+      "options": {
+        "A": "KVM",
+        "B": "Hyper-V",
+        "C": "vCenter",
+        "D": "Xen"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "Which virtualization management platform is open-source?",
+      "options": {
+        "A": "VMware vSphere",
+        "B": "Microsoft Hyper-V",
+        "C": "Xen",
+        "D": "Amazon EC2"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 78,
+      "question": "Which tool is used for container orchestration?",
+      "options": {
+        "A": "Kubernetes",
+        "B": "vSphere",
+        "C": "Citrix",
+        "D": "Hyper-V Manager"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 79,
+      "question": "Which component in container orchestration ensures containers run continuously?",
+      "options": {
+        "A": "Replica Set",
+        "B": "Load Balancer",
+        "C": "Registry",
+        "D": "Daemon"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 80,
+      "question": "Which virtualization type provides the best resource efficiency?",
+      "options": {
+        "A": "Full Virtualization",
+        "B": "Para Virtualization",
+        "C": "Container-based Virtualization",
+        "D": "Hardware Virtualization"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "question": "Federated cloud is best described as:",
+      "options": {
+        "A": "A single-provider cloud system",
+        "B": "A combination of multiple autonomous clouds sharing resources",
+        "C": "An internal private cloud",
+        "D": "A hybrid of on-premise and offline servers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 82,
+      "question": "Which is a key challenge in federated clouds?",
+      "options": {
+        "A": "Interoperability between providers",
+        "B": "Lack of virtualization",
+        "C": "Low scalability",
+        "D": "Centralized control"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 83,
+      "question": "Which concept allows multiple clouds to collaborate while retaining autonomy?",
+      "options": {
+        "A": "Cloud Bursting",
+        "B": "Federation",
+        "C": "Virtualization",
+        "D": "Elastic Scaling"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 84,
+      "question": "Which component ensures SLA compliance between federated clouds?",
+      "options": {
+        "A": "Policy Engine",
+        "B": "Load Balancer",
+        "C": "Orchestrator",
+        "D": "Broker"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 85,
+      "question": "Which architecture does a federated cloud follow?",
+      "options": {
+        "A": "Hierarchical",
+        "B": "Peer-to-Peer",
+        "C": "Monolithic",
+        "D": "Centralized"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 86,
+      "question": "Cloud bursting refers to:",
+      "options": {
+        "A": "Temporary scaling into a public cloud during high demand",
+        "B": "Data deletion during migration",
+        "C": "Security breach in hybrid cloud",
+        "D": "Network overload in private cloud"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 87,
+      "question": "Which policy governs data transfer between federated clouds?",
+      "options": {
+        "A": "Security Policy",
+        "B": "Data Exchange Policy",
+        "C": "Retention Policy",
+        "D": "Decryption Policy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "Which is NOT a benefit of federated cloud systems?",
+      "options": {
+        "A": "Resource sharing",
+        "B": "Reduced vendor lock-in",
+        "C": "Central control by one provider",
+        "D": "Improved scalability"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 89,
+      "question": "Which component handles monitoring in a federated cloud?",
+      "options": {
+        "A": "Auditor",
+        "B": "Controller",
+        "C": "Scheduler",
+        "D": "Firewall"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 90,
+      "question": "The role of a Cloud Broker includes:",
+      "options": {
+        "A": "Encrypting local disks",
+        "B": "Matching user requirements with cloud services",
+        "C": "Hosting databases",
+        "D": "Maintaining physical hardware"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "question": "Which federated architecture layer handles inter-cloud communication?",
+      "options": {
+        "A": "Infrastructure Layer",
+        "B": "Communication Layer",
+        "C": "Application Layer",
+        "D": "Service Layer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 92,
+      "question": "Which technology supports automated deployment across federated clouds?",
+      "options": {
+        "A": "Kubernetes Federation",
+        "B": "Manual VM Cloning",
+        "C": "FTP Transfer",
+        "D": "API-less Management"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 93,
+      "question": "Which model enables resource sharing without transferring ownership?",
+      "options": {
+        "A": "Service Federation Model",
+        "B": "Shared Ownership Model",
+        "C": "Resource Pooling Model",
+        "D": "Hybrid Governance Model"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 94,
+      "question": "Which entity in a federated cloud acts as an intermediary for SLA negotiation?",
+      "options": {
+        "A": "Cloud Broker",
+        "B": "Service Auditor",
+        "C": "Orchestrator",
+        "D": "Provider"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 95,
+      "question": "Which is an example of a federated cloud use case?",
+      "options": {
+        "A": "Cross-university research collaborations",
+        "B": "Single vendor enterprise system",
+        "C": "Offline data storage",
+        "D": "Static hosting service"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 96,
+      "question": "Which of the following is NOT a challenge in federated cloud?",
+      "options": {
+        "A": "Interoperability",
+        "B": "SLA Management",
+        "C": "Redundancy",
+        "D": "Security"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 97,
+      "question": "Which federated cloud component ensures policy compliance?",
+      "options": {
+        "A": "Auditor",
+        "B": "Broker",
+        "C": "Orchestrator",
+        "D": "Gateway"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 98,
+      "question": "Which protocol is essential for inter-cloud resource sharing?",
+      "options": {
+        "A": "InterCloud Protocol",
+        "B": "SSH",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 99,
+      "question": "What is the primary goal of a federated cloud architecture?",
+      "options": {
+        "A": "Monopoly over cloud providers",
+        "B": "Interoperability and shared resource access",
+        "C": "Reducing redundancy",
+        "D": "Centralizing workloads"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "question": "Which advantage does federation provide for cloud users?",
+      "options": {
+        "A": "Reduced redundancy",
+        "B": "Access to multiple provider services under unified management",
+        "C": "Vendor lock-in",
+        "D": "Manual orchestration"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 101,
+      "question": "Which of the following is the main goal of cloud security?",
+      "options": {
+        "A": "To reduce internet usage",
+        "B": "To protect data, applications, and infrastructure",
+        "C": "To increase resource consumption",
+        "D": "To ensure unlimited public access"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "question": "Which security model focuses on granting users the minimum required permissions?",
+      "options": {
+        "A": "Zero Trust",
+        "B": "Least Privilege",
+        "C": "Role Escalation",
+        "D": "Default Access"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "question": "What does IAM stand for in cloud computing?",
+      "options": {
+        "A": "Identity and Access Management",
+        "B": "Integrated Application Model",
+        "C": "Internet Access Management",
+        "D": "Infrastructure Automation Module"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 104,
+      "question": "Which technique protects data confidentiality in cloud storage?",
+      "options": {
+        "A": "Encryption",
+        "B": "Compression",
+        "C": "Replication",
+        "D": "Sharding"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 105,
+      "question": "Which type of encryption uses different keys for encryption and decryption?",
+      "options": {
+        "A": "Symmetric",
+        "B": "Asymmetric",
+        "C": "Hashing",
+        "D": "One-way"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "Which cloud security layer ensures integrity of data in transmission?",
+      "options": {
+        "A": "Application Layer",
+        "B": "Transport Layer Security (TLS)",
+        "C": "Session Layer",
+        "D": "Network Address Translation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Which component is responsible for monitoring access policies in cloud security?",
+      "options": {
+        "A": "Identity Provider",
+        "B": "Access Controller",
+        "C": "Load Balancer",
+        "D": "API Gateway"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "What is the main function of cloud auditing?",
+      "options": {
+        "A": "Deleting old user data",
+        "B": "Tracking and evaluating security compliance",
+        "C": "Managing storage blocks",
+        "D": "Load balancing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 109,
+      "question": "Which of the following is an example of a security threat in cloud computing?",
+      "options": {
+        "A": "Data Breach",
+        "B": "Auto Scaling",
+        "C": "Load Balancing",
+        "D": "Data Backup"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "Multi-tenancy increases the importance of which cloud security concept?",
+      "options": {
+        "A": "Data Isolation",
+        "B": "Data Redundancy",
+        "C": "Data Compression",
+        "D": "Data Duplication"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 111,
+      "question": "CloudWatch and Stackdriver are examples of:",
+      "options": {
+        "A": "Cloud Security Services",
+        "B": "Cloud Monitoring Tools",
+        "C": "Load Balancers",
+        "D": "Database Systems"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "Which metric is used in cloud monitoring to track system responsiveness?",
+      "options": {
+        "A": "Latency",
+        "B": "Bandwidth",
+        "C": "Storage Capacity",
+        "D": "Thread Count"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 113,
+      "question": "Which component collects metrics and logs for analysis in cloud monitoring?",
+      "options": {
+        "A": "Agent",
+        "B": "Firewall",
+        "C": "Broker",
+        "D": "Container"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "Which visualization method is commonly used in dashboards for cloud performance?",
+      "options": {
+        "A": "Bar charts and line graphs",
+        "B": "Flowcharts",
+        "C": "Mind maps",
+        "D": "Pie text representation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 115,
+      "question": "Which cloud monitoring type tracks infrastructure health such as CPU and memory usage?",
+      "options": {
+        "A": "Application Monitoring",
+        "B": "Infrastructure Monitoring",
+        "C": "Log Monitoring",
+        "D": "Database Monitoring"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "Which service model requires the user to manage the most components?",
+      "options": {
+        "A": "SaaS",
+        "B": "PaaS",
+        "C": "IaaS",
+        "D": "MBaaS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 117,
+      "question": "Which of the following describes MBaaS (Mobile Backend as a Service)?",
+      "options": {
+        "A": "Manages mobile device hardware",
+        "B": "Provides backend services like authentication and database for mobile apps",
+        "C": "Handles frontend UI development",
+        "D": "Only supports desktop applications"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "Which feature is commonly provided by MBaaS platforms?",
+      "options": {
+        "A": "Email hosting",
+        "B": "Push notifications",
+        "C": "Container orchestration",
+        "D": "Code compilation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "Which example best represents an MBaaS provider?",
+      "options": {
+        "A": "Firebase",
+        "B": "AWS EC2",
+        "C": "VMware",
+        "D": "Docker"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "Which benefit of MBaaS accelerates app development?",
+      "options": {
+        "A": "Manual backend setup",
+        "B": "Automatic backend integration",
+        "C": "Low network reliability",
+        "D": "Server-side coding only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "question": "Serverless computing eliminates the need for:",
+      "options": {
+        "A": "Programming languages",
+        "B": "Manual server management",
+        "C": "Frontend development",
+        "D": "Database storage"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "question": "In serverless computing, functions are typically triggered by:",
+      "options": {
+        "A": "Manual code execution",
+        "B": "Events",
+        "C": "Timers only",
+        "D": "Network pings"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "Which AWS service provides serverless execution?",
+      "options": {
+        "A": "AWS Lambda",
+        "B": "AWS EC2",
+        "C": "AWS S3",
+        "D": "AWS CloudFront"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 124,
+      "question": "Serverless architectures follow which pricing model?",
+      "options": {
+        "A": "Subscription-based",
+        "B": "Pay-per-execution",
+        "C": "Flat monthly rate",
+        "D": "License fee"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "Which of the following is an advantage of serverless computing?",
+      "options": {
+        "A": "Manual scaling",
+        "B": "Reduced operational overhead",
+        "C": "Persistent connections",
+        "D": "Fixed server allocation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "question": "Which of the following is a limitation of serverless computing?",
+      "options": {
+        "A": "Automatic scaling",
+        "B": "Cold start latency",
+        "C": "Event-driven execution",
+        "D": "Automatic monitoring"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "question": "Which concept in microservices ensures that services can evolve independently?",
+      "options": {
+        "A": "Loose Coupling",
+        "B": "Strong Dependency",
+        "C": "Centralization",
+        "D": "Monolithic Design"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 128,
+      "question": "Which component enables communication between microservices?",
+      "options": {
+        "A": "API Gateway",
+        "B": "Database Engine",
+        "C": "Firewall",
+        "D": "Cache"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 129,
+      "question": "Each microservice typically has its own:",
+      "options": {
+        "A": "Database and lifecycle",
+        "B": "UI component only",
+        "C": "Shared memory space",
+        "D": "Container image"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "question": "Which advantage of microservices enables easy scaling of specific functionalities?",
+      "options": {
+        "A": "Centralized architecture",
+        "B": "Independent scalability",
+        "C": "Single deployment unit",
+        "D": "Shared dependency"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 131,
+      "question": "Which deployment method is most common for microservices?",
+      "options": {
+        "A": "Containers",
+        "B": "Bare-metal servers",
+        "C": "Physical clusters",
+        "D": "Virtual desktops"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 132,
+      "question": "In microservices, which approach simplifies debugging by isolating failures?",
+      "options": {
+        "A": "Fault Isolation",
+        "B": "Service Integration",
+        "C": "Synchronous coupling",
+        "D": "Centralized control"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 133,
+      "question": "Which architecture style contrasts microservices?",
+      "options": {
+        "A": "Monolithic",
+        "B": "Serverless",
+        "C": "Event-driven",
+        "D": "Containerized"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 134,
+      "question": "Microservices often use which communication protocol?",
+      "options": {
+        "A": "REST or gRPC",
+        "B": "POP3",
+        "C": "SMTP",
+        "D": "Telnet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 135,
+      "question": "Which monitoring challenge arises in microservices systems?",
+      "options": {
+        "A": "Limited visibility due to distributed nature",
+        "B": "Single point of failure",
+        "C": "Static configuration",
+        "D": "Lack of automation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 136,
+      "question": "Grid computing primarily focuses on:",
+      "options": {
+        "A": "Centralized control",
+        "B": "Distributed resource sharing across networks",
+        "C": "Single-server performance",
+        "D": "Local storage optimization"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "question": "Which layer in grid computing manages user authentication?",
+      "options": {
+        "A": "Fabric Layer",
+        "B": "Connectivity Layer",
+        "C": "Resource Layer",
+        "D": "Application Layer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "The fabric layer in grid computing provides:",
+      "options": {
+        "A": "Resource discovery and allocation",
+        "B": "Direct access to hardware resources",
+        "C": "Application interfaces",
+        "D": "User credentials"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "question": "Which component in grid computing schedules jobs to available resources?",
+      "options": {
+        "A": "Resource Broker",
+        "B": "Load Balancer",
+        "C": "Service Provider",
+        "D": "Grid Node"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 140,
+      "question": "Which of the following best describes a grid node?",
+      "options": {
+        "A": "A computing resource participating in the grid",
+        "B": "A database index",
+        "C": "A network firewall",
+        "D": "A monitoring dashboard"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "question": "Which grid layer handles monitoring and accounting of resource usage?",
+      "options": {
+        "A": "Connectivity Layer",
+        "B": "Resource Layer",
+        "C": "Collective Layer",
+        "D": "Application Layer"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 142,
+      "question": "Grid middleware is responsible for:",
+      "options": {
+        "A": "Integrating and coordinating distributed resources",
+        "B": "Managing cloud-only systems",
+        "C": "Providing direct internet access",
+        "D": "Disabling virtualization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 143,
+      "question": "Which protocol enables secure communication in grid systems?",
+      "options": {
+        "A": "GSI (Grid Security Infrastructure)",
+        "B": "HTTP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 144,
+      "question": "Which of the following is a major benefit of grid computing?",
+      "options": {
+        "A": "Resource utilization and scalability",
+        "B": "Data isolation",
+        "C": "Centralized ownership",
+        "D": "Vendor lock-in"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 145,
+      "question": "Which challenge in grid computing involves handling heterogeneous systems?",
+      "options": {
+        "A": "Interoperability",
+        "B": "Redundancy",
+        "C": "Elasticity",
+        "D": "Encryption"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "Grid computing differs from cloud computing mainly in:",
+      "options": {
+        "A": "Grid focuses on sharing distributed resources, cloud provides centralized services",
+        "B": "Grid uses virtualization, cloud does not",
+        "C": "Cloud is only open-source",
+        "D": "Grid is limited to one data center"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 147,
+      "question": "Which grid middleware framework is widely used for scientific applications?",
+      "options": {
+        "A": "Globus Toolkit",
+        "B": "Apache Hadoop",
+        "C": "Kubernetes",
+        "D": "Docker"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 148,
+      "question": "Which function in grid computing handles scheduling and workload management?",
+      "options": {
+        "A": "Grid Scheduler",
+        "B": "Load Balancer",
+        "C": "API Gateway",
+        "D": "Resource Monitor"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 149,
+      "question": "Which is NOT a feature of grid computing?",
+      "options": {
+        "A": "Resource sharing",
+        "B": "High availability",
+        "C": "Centralized architecture",
+        "D": "Parallel processing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 150,
+      "question": "Which computing paradigm laid the foundation for cloud computing?",
+      "options": {
+        "A": "Grid Computing",
+        "B": "Edge Computing",
+        "C": "Fog Computing",
+        "D": "Mainframe Computing"
+      },
+      "answer": "A"
+    }
+  ]
+}
+
