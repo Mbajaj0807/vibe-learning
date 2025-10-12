@@ -1,4 +1,12 @@
 const QUIZ_CONFIGS = {
+    cset324: {
+    id: 'cset324',
+    title: 'CSET324',
+    subtitle: 'Software Project Management',
+    
+    dataFile: 'cset324',
+    questions: 150
+  },
     cset305: {
     id: 'cset305',
     title: 'CSET305',
@@ -15,6 +23,14 @@ const QUIZ_CONFIGS = {
     dataFile: 'cset381',
     questions: 150
   },
+cset302: {
+    id: 'cset302',
+    title: 'CSET302',
+    subtitle: 'Automata Theory',
+    
+    dataFile: 'cset302',
+    questions: 0
+  },
   cset344: {
     id: 'cset344',
     title: 'CSET344',
@@ -23,22 +39,6 @@ const QUIZ_CONFIGS = {
     dataFile: 'cset344',
     questions: 150
   },
-  cset324: {
-    id: 'cset324',
-    title: 'CSET324',
-    subtitle: 'Software Project Management',
-    
-    dataFile: 'cset324',
-    questions: 0
-  },
-  cset302: {
-    id: 'cset302',
-    title: 'CSET302',
-    subtitle: 'Automata Theory',
-    
-    dataFile: 'cset302',
-    questions: 0
-  },
   cset358: {
     id: 'cset358',
     title: 'CSET358',
@@ -46,7 +46,9 @@ const QUIZ_CONFIGS = {
 
     dataFile: 'cset358',
     questions: 150
-  }
+  },
+  
+  
   // Add more quiz configs here
 };
 

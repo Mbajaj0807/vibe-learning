@@ -2,14 +2,1656 @@
   "quiz": [
     {
       "id": 1,
-      "question": "Question",
+      "question": "Which of the following best describes Agile methodology?",
       "options": {
-        "A": "Option A",
-        "B": "Option B",
-        "C": "Option C",
-        "D": "Option D"
+        "A": "A rigid, sequential software development process",
+        "B": "A time-boxed, iterative approach to software delivery",
+        "C": "A method focused on delivering all functionality at the end",
+        "D": "A hardware testing methodology"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "In Agile, user requirements are broken down into:",
+      "options": {
+        "A": "Modules",
+        "B": "User Stories",
+        "C": "Epics only",
+        "D": "Use Case Diagrams"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "The Agile Manifesto was formalized in 2001 at which location?",
+      "options": {
+        "A": "New York",
+        "B": "Snowbird Ski Resort",
+        "C": "San Francisco",
+        "D": "London"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is NOT an Agile methodology?",
+      "options": {
+        "A": "Scrum",
+        "B": "XP",
+        "C": "Waterfall",
+        "D": "FDD"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Which role in Scrum is responsible for maximizing ROI?",
+      "options": {
+        "A": "Scrum Master",
+        "B": "Project Manager",
+        "C": "Product Owner",
+        "D": "Developer"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "During the Sprint, outside interference with the Scrum team is:",
+      "options": {
+        "A": "Allowed for urgent changes",
+        "B": "Allowed anytime",
+        "C": "Not allowed",
+        "D": "Only allowed after approval from developers"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Which of the following meetings occurs at the start of each Sprint?",
+      "options": {
+        "A": "Sprint Review",
+        "B": "Daily Scrum",
+        "C": "Sprint Planning Meeting",
+        "D": "Backlog Refinement"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "Who is responsible for managing dependencies and impediments in Scrum?",
+      "options": {
+        "A": "Product Owner",
+        "B": "Scrum Master",
+        "C": "Developers",
+        "D": "Stakeholders"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "The Sprint Backlog is created by:",
+      "options": {
+        "A": "Product Owner only",
+        "B": "Scrum Master",
+        "C": "Development Team",
+        "D": "Stakeholders"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Which artifact represents 'work done' in Scrum?",
+      "options": {
+        "A": "Product Backlog",
+        "B": "Sprint Backlog",
+        "C": "Burn Down Chart",
+        "D": "Kanban Board"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "A milestone in project management is characterized by:",
+      "options": {
+        "A": "Long duration",
+        "B": "Significant event with no duration",
+        "C": "Daily updates",
+        "D": "A financial investment"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is a mandatory dependency example?",
+      "options": {
+        "A": "Starting UI before requirements",
+        "B": "Building walls before foundation",
+        "C": "Testing before design",
+        "D": "Parallel backend and frontend work"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "In Arrow Diagramming Method (ADM), activities are represented by:",
+      "options": {
+        "A": "Nodes",
+        "B": "Arrows",
+        "C": "Swimlanes",
+        "D": "Gantt bars"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "Which type of task dependency means 'Task B can’t start until Task A finishes'?",
+      "options": {
+        "A": "Start-to-Start",
+        "B": "Finish-to-Start",
+        "C": "Finish-to-Finish",
+        "D": "Start-to-Finish"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "Which estimation technique uses historical data for resource estimation?",
+      "options": {
+        "A": "Expert Judgment",
+        "B": "Analogous Estimation",
+        "C": "Parametric Estimation",
+        "D": "Bottom-up Estimation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "PERT estimation uses how many time estimates?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "For a task with O=4, M=6, P=10, the expected duration (TE) is approximately:",
+      "options": {
+        "A": "4.5 days",
+        "B": "6.3 days",
+        "C": "8.5 days",
+        "D": "10 days"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is NOT a COCOMO model type?",
+      "options": {
+        "A": "Basic",
+        "B": "Intermediate",
+        "C": "Detailed",
+        "D": "Iterative"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "question": "The Effort in Basic COCOMO is measured in:",
+      "options": {
+        "A": "Workdays",
+        "B": "Person-Months",
+        "C": "Sprints",
+        "D": "Story Points"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "For Organic mode, the coefficient 'a' in Basic COCOMO is:",
+      "options": {
+        "A": "2.4",
+        "B": "3.0",
+        "C": "3.6",
+        "D": "1.5"
       },
       "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "For a 400 KLOC project in organic mode, the development time is closest to:",
+      "options": {
+        "A": "20 months",
+        "B": "38 months",
+        "C": "60 months",
+        "D": "12 months"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "Which cost driver category includes 'complexity of the product'?",
+      "options": {
+        "A": "Product attributes",
+        "B": "Hardware attributes",
+        "C": "Personnel attributes",
+        "D": "Project attributes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "question": "The EAF in intermediate COCOMO is obtained by:",
+      "options": {
+        "A": "Addition of cost driver values",
+        "B": "Multiplication of cost driver values",
+        "C": "Division of cost driver values",
+        "D": "Averaging cost driver values"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "The phase with the largest percentage of effort in most projects is:",
+      "options": {
+        "A": "Planning",
+        "B": "Design",
+        "C": "Coding",
+        "D": "Integration"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "The Burn Down chart is mainly used to show:",
+      "options": {
+        "A": "Team member performance",
+        "B": "Work completed over time",
+        "C": "Budget breakdown",
+        "D": "Stakeholder communication"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is NOT a type of dependency in project scheduling?",
+      "options": {
+        "A": "Mandatory",
+        "B": "Discretionary",
+        "C": "External",
+        "D": "Random"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 27,
+      "question": "Which diagramming method allows representation of all four types of dependencies?",
+      "options": {
+        "A": "Arrow Diagramming Method",
+        "B": "Precedence Diagramming Method",
+        "C": "PERT",
+        "D": "Gantt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "In Precedence Diagramming Method, activities are represented as:",
+      "options": {
+        "A": "Arrows",
+        "B": "Boxes",
+        "C": "Circles",
+        "D": "Tables"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Which resource estimation technique involves breaking down activities into small tasks?",
+      "options": {
+        "A": "Expert judgment",
+        "B": "Parametric estimation",
+        "C": "Analogous estimation",
+        "D": "Bottom-up estimation"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is part of activity attributes?",
+      "options": {
+        "A": "Project scope",
+        "B": "Leads and lags",
+        "C": "Budget baseline",
+        "D": "Burn down chart"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "question": "The expected duration in PERT is calculated using:",
+      "options": {
+        "A": "O + M + P / 3",
+        "B": "(O + 4M + P)/6",
+        "C": "P + O + 2M / 4",
+        "D": "(P + M + O)/2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "In a three-point estimate with O=5, M=8, and P=12, the expected duration is approximately:",
+      "options": {
+        "A": "8.2 days",
+        "B": "7.0 days",
+        "C": "6.5 days",
+        "D": "9.0 days"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "The basic unit of effort in COCOMO is:",
+      "options": {
+        "A": "Person-Week",
+        "B": "Person-Month",
+        "C": "Person-Year",
+        "D": "Man-Days"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "question": "For Semidetached mode, the 'a' coefficient in Basic COCOMO is:",
+      "options": {
+        "A": "2.4",
+        "B": "3.0",
+        "C": "3.6",
+        "D": "1.2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "For Embedded mode, the 'a' coefficient in Basic COCOMO is:",
+      "options": {
+        "A": "2.4",
+        "B": "3.0",
+        "C": "3.6",
+        "D": "4.0"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 36,
+      "question": "In COCOMO, productivity is defined as:",
+      "options": {
+        "A": "Effort / KLOC",
+        "B": "KLOC / Effort",
+        "C": "KLOC × Effort",
+        "D": "KLOC + Effort"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "The EAF value in intermediate COCOMO is derived by multiplying:",
+      "options": {
+        "A": "Schedule and cost",
+        "B": "All cost driver multipliers",
+        "C": "Only product drivers",
+        "D": "Only personnel drivers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 38,
+      "question": "For 200 KLOC in semidetached mode, which value is closest to the estimated effort?",
+      "options": {
+        "A": "200 PM",
+        "B": "1133 PM",
+        "C": "300 PM",
+        "D": "50 PM"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "In Agile, the time-boxed cycle is called:",
+      "options": {
+        "A": "Epic",
+        "B": "Iteration",
+        "C": "Milestone",
+        "D": "Flow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Which meeting is used to demonstrate business functionality created during a Sprint?",
+      "options": {
+        "A": "Sprint Planning",
+        "B": "Daily Scrum",
+        "C": "Sprint Review",
+        "D": "Retrospective"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "question": "Which artifact is owned and managed by the Product Owner?",
+      "options": {
+        "A": "Sprint Backlog",
+        "B": "Product Backlog",
+        "C": "Burndown Chart",
+        "D": "Definition of Done"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "What is the recommended maximum number of tasks in a Sprint Backlog?",
+      "options": {
+        "A": "100",
+        "B": "200",
+        "C": "300",
+        "D": "400"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "A task longer than 16 hours in the Sprint Backlog should be:",
+      "options": {
+        "A": "Discarded",
+        "B": "Merged with another task",
+        "C": "Broken down",
+        "D": "Left as is"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "question": "Which dependency depends on external factors?",
+      "options": {
+        "A": "Mandatory",
+        "B": "Discretionary",
+        "C": "External",
+        "D": "Internal"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 45,
+      "question": "The three-point estimate technique helps in:",
+      "options": {
+        "A": "Reducing cost",
+        "B": "Considering uncertainty",
+        "C": "Eliminating dependencies",
+        "D": "Shortening sprints"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "Which diagramming technique is more flexible and popular?",
+      "options": {
+        "A": "ADM",
+        "B": "PERT",
+        "C": "PDM",
+        "D": "CPM"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "question": "In COCOMO, which mode applies to projects larger than 300 KLOC?",
+      "options": {
+        "A": "Organic",
+        "B": "Semidetached",
+        "C": "Embedded",
+        "D": "Hybrid"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "The phase with 48%-68% of total effort in COCOMO lifecycle distribution is:",
+      "options": {
+        "A": "Planning",
+        "B": "Design",
+        "C": "Programming",
+        "D": "Testing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 49,
+      "question": "In Earned Value Management, PV stands for:",
+      "options": {
+        "A": "Planned Value",
+        "B": "Project Value",
+        "C": "Performance Value",
+        "D": "Program Value"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "In Earned Value Management, EV stands for:",
+      "options": {
+        "A": "Earned Variation",
+        "B": "Earned Value",
+        "C": "Event Value",
+        "D": "Effective Value"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "Schedule Performance Index (SPI) is calculated as:",
+      "options": {
+        "A": "PV/EV",
+        "B": "EV/PV",
+        "C": "EV/AC",
+        "D": "AC/PV"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "Cost Performance Index (CPI) is calculated as:",
+      "options": {
+        "A": "EV/AC",
+        "B": "AC/EV",
+        "C": "PV/AC",
+        "D": "PV/EV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 53,
+      "question": "If PV=103 and EV=44, SPI is closest to:",
+      "options": {
+        "A": "0.43",
+        "B": "0.65",
+        "C": "1.2",
+        "D": "2.0"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "If EV=44 and AC=78, CPI is closest to:",
+      "options": {
+        "A": "0.43",
+        "B": "0.56",
+        "C": "1.2",
+        "D": "0.75"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "Portfolio management involves:",
+      "options": {
+        "A": "Only selecting single project",
+        "B": "Managing multiple projects strategically",
+        "C": "Budget tracking only",
+        "D": "Testing software"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "Which of the following is a Quality Control tool?",
+      "options": {
+        "A": "Scrum Board",
+        "B": "Histogram",
+        "C": "PERT Chart",
+        "D": "WBS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "question": "Pareto Chart is based on the principle that:",
+      "options": {
+        "A": "20% of the causes result in 80% of the problems",
+        "B": "50-50 distribution",
+        "C": "Linear growth",
+        "D": "100% causes equal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Control charts are used to:",
+      "options": {
+        "A": "Track costs",
+        "B": "Identify abnormalities in processes",
+        "C": "Allocate resources",
+        "D": "Plan scope"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "question": "Which level of CMM is characterized by ad-hoc processes?",
+      "options": {
+        "A": "Level 1",
+        "B": "Level 2",
+        "C": "Level 3",
+        "D": "Level 4"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "At which CMM level is basic project management established?",
+      "options": {
+        "A": "Level 1",
+        "B": "Level 2",
+        "C": "Level 3",
+        "D": "Level 4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "Which CMM level focuses on process measurement?",
+      "options": {
+        "A": "Level 2",
+        "B": "Level 3",
+        "C": "Level 4",
+        "D": "Level 5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "question": "Which CMM level focuses on continuous improvement?",
+      "options": {
+        "A": "Level 2",
+        "B": "Level 3",
+        "C": "Level 4",
+        "D": "Level 5"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 63,
+      "question": "At Level 3 of CMM, the process is:",
+      "options": {
+        "A": "Adhoc",
+        "B": "Repeatable",
+        "C": "Defined",
+        "D": "Optimizing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 64,
+      "question": "The purpose of OPD (Organizational Process Definition) is to:",
+      "options": {
+        "A": "Eliminate testing",
+        "B": "Define process assets and guidelines",
+        "C": "Create sprint backlog",
+        "D": "Track earned value"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Which ISO standard is most commonly used for quality management?",
+      "options": {
+        "A": "ISO 8000",
+        "B": "ISO 9001",
+        "C": "ISO 27001",
+        "D": "ISO 31000"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 66,
+      "question": "The biggest similarity between CMM and ISO 9001 is:",
+      "options": {
+        "A": "They use the same audit checklist",
+        "B": "They both emphasize 'Say what you do; do what you say'",
+        "C": "They both require the same certification",
+        "D": "They both are mandatory for startups"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "ISO 14000 deals with:",
+      "options": {
+        "A": "Environmental management",
+        "B": "Quality assurance",
+        "C": "Software metrics",
+        "D": "Risk tracking"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "Which ISO standard focuses on environmental performance?",
+      "options": {
+        "A": "ISO 9001",
+        "B": "ISO 27001",
+        "C": "ISO 14000",
+        "D": "ISO 8000"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "question": "Six Sigma focuses on improving:",
+      "options": {
+        "A": "Only cost",
+        "B": "Quality and customer satisfaction",
+        "C": "Team size",
+        "D": "Environmental impact"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "The Greek letter Sigma refers to:",
+      "options": {
+        "A": "Mean",
+        "B": "Variance",
+        "C": "Standard deviation",
+        "D": "Sample size"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "question": "The target defect rate in Six Sigma is:",
+      "options": {
+        "A": "3.4 defects per million opportunities",
+        "B": "34 defects per thousand",
+        "C": "0 defects per hundred",
+        "D": "1% defect rate"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "Quality assurance is:",
+      "options": {
+        "A": "Process-oriented",
+        "B": "Product-oriented",
+        "C": "Customer-oriented",
+        "D": "Documentation-oriented"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "question": "Quality control is:",
+      "options": {
+        "A": "Process-oriented",
+        "B": "Product-oriented",
+        "C": "People-oriented",
+        "D": "Budget-oriented"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "question": "Which quality control tool helps identify cause-and-effect relationships?",
+      "options": {
+        "A": "Flowchart",
+        "B": "Check sheet",
+        "C": "Cause and Effect Diagram",
+        "D": "Control Chart"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 75,
+      "question": "Flowcharts in quality management help to:",
+      "options": {
+        "A": "Show steps and relations in a process",
+        "B": "Measure standard deviation",
+        "C": "Calculate earned value",
+        "D": "Manage COCOMO"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 76,
+      "question": "Scatter diagrams are used to:",
+      "options": {
+        "A": "Check process control",
+        "B": "Identify relationship between two variables",
+        "C": "Break down work",
+        "D": "Prioritize risks"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "Histogram is a tool to:",
+      "options": {
+        "A": "Calculate probability",
+        "B": "Show distribution of data",
+        "C": "Manage sprint backlog",
+        "D": "Plan iteration"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "question": "Check sheets are primarily used for:",
+      "options": {
+        "A": "Statistical analysis",
+        "B": "Recording data",
+        "C": "Breaking dependencies",
+        "D": "Budget approval"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "In Six Sigma, DMAIC stands for:",
+      "options": {
+        "A": "Define, Measure, Analyze, Improve, Control",
+        "B": "Design, Measure, Apply, Implement, Control",
+        "C": "Define, Manage, Act, Initiate, Control",
+        "D": "Design, Model, Act, Inspect, Control"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 80,
+      "question": "At 6 sigma level, the process capability is approximately:",
+      "options": {
+        "A": "1 sigma",
+        "B": "3 sigma",
+        "C": "6 sigma",
+        "D": "12 sigma"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "question": "Which tool is most suitable to track whether a process is under control?",
+      "options": {
+        "A": "Control Chart",
+        "B": "Pareto Chart",
+        "C": "Check Sheet",
+        "D": "Flowchart"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 82,
+      "question": "A project with a CPI less than 1 indicates:",
+      "options": {
+        "A": "Cost underrun",
+        "B": "Cost overrun",
+        "C": "On budget",
+        "D": "Schedule issue only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "question": "A project with SPI less than 1 indicates:",
+      "options": {
+        "A": "Ahead of schedule",
+        "B": "Behind schedule",
+        "C": "On schedule",
+        "D": "Budget overrun only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 84,
+      "question": "Earned Value Analysis is primarily used for:",
+      "options": {
+        "A": "Quality assurance",
+        "B": "Performance measurement",
+        "C": "Risk identification",
+        "D": "Requirement gathering"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "question": "The formula for cost variance is:",
+      "options": {
+        "A": "CV = EV - AC",
+        "B": "CV = PV - EV",
+        "C": "CV = EV + AC",
+        "D": "CV = PV + EV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 86,
+      "question": "The formula for schedule variance is:",
+      "options": {
+        "A": "SV = EV - PV",
+        "B": "SV = PV - EV",
+        "C": "SV = EV + PV",
+        "D": "SV = PV + AC"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 87,
+      "question": "A positive cost variance indicates:",
+      "options": {
+        "A": "Over budget",
+        "B": "Under budget",
+        "C": "Delayed project",
+        "D": "Low productivity"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "A negative schedule variance indicates:",
+      "options": {
+        "A": "Ahead of schedule",
+        "B": "On schedule",
+        "C": "Behind schedule",
+        "D": "Over budget"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 89,
+      "question": "A Gantt chart is primarily used for:",
+      "options": {
+        "A": "Risk management",
+        "B": "Scheduling",
+        "C": "Quality control",
+        "D": "Costing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "question": "The critical path in a network diagram represents:",
+      "options": {
+        "A": "Longest path with least duration",
+        "B": "Shortest path with float",
+        "C": "Longest path with zero float",
+        "D": "Shortest path without dependencies"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 91,
+      "question": "Float in CPM refers to:",
+      "options": {
+        "A": "Extra time available",
+        "B": "Delays due to cost",
+        "C": "Testing time",
+        "D": "Rework time"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 92,
+      "question": "If a path has zero float, it is:",
+      "options": {
+        "A": "Non-critical path",
+        "B": "Critical path",
+        "C": "Optional path",
+        "D": "Rework path"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 93,
+      "question": "A project network diagram is mainly used for:",
+      "options": {
+        "A": "Budget tracking",
+        "B": "Schedule control",
+        "C": "Risk planning",
+        "D": "Quality management"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "question": "The term 'lag' refers to:",
+      "options": {
+        "A": "Delay between dependent activities",
+        "B": "Work completed early",
+        "C": "Critical path length",
+        "D": "Total float"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 95,
+      "question": "The term 'lead' refers to:",
+      "options": {
+        "A": "Delay",
+        "B": "Acceleration of successor activity",
+        "C": "Task cancellation",
+        "D": "Resource removal"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 96,
+      "question": "In project cost control, EAC stands for:",
+      "options": {
+        "A": "Estimate at Completion",
+        "B": "Earned Actual Cost",
+        "C": "Expected Average Cost",
+        "D": "Earned and Completed"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 97,
+      "question": "VAC stands for:",
+      "options": {
+        "A": "Value at Completion",
+        "B": "Variance at Completion",
+        "C": "Value after Control",
+        "D": "Variance after Check"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 98,
+      "question": "The difference between BAC and EAC is:",
+      "options": {
+        "A": "VAC",
+        "B": "EV",
+        "C": "PV",
+        "D": "CPI"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 99,
+      "question": "The cost baseline is primarily used to:",
+      "options": {
+        "A": "Compare planned and actual costs",
+        "B": "Document test results",
+        "C": "Record quality metrics",
+        "D": "Assign resources"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 100,
+      "question": "The time-phased budget used for project performance measurement is called:",
+      "options": {
+        "A": "Cost variance",
+        "B": "Cost baseline",
+        "C": "Critical path",
+        "D": "Earned value"
+      },
+      "answer": "B"
+    },
+    
+    {
+      "id": 101,
+      "question": "The main purpose of Work Breakdown Structure (WBS) is to:",
+      "options": {
+        "A": "Estimate cost",
+        "B": "Break project into manageable components",
+        "C": "Track quality issues",
+        "D": "Manage communication"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "question": "Which of the following best describes the lowest level in a WBS?",
+      "options": {
+        "A": "Work package",
+        "B": "Task summary",
+        "C": "Activity list",
+        "D": "Milestone"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 103,
+      "question": "A WBS should be:",
+      "options": {
+        "A": "Schedule-oriented",
+        "B": "Deliverable-oriented",
+        "C": "Cost-oriented",
+        "D": "Task-oriented only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "Which of the following is a direct benefit of using WBS?",
+      "options": {
+        "A": "Improved sprint velocity",
+        "B": "Better scope control",
+        "C": "Reduced defect rate",
+        "D": "Increased staff morale"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "Which chart is most useful for showing project dependencies?",
+      "options": {
+        "A": "Gantt chart",
+        "B": "Histogram",
+        "C": "Pareto chart",
+        "D": "Check sheet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 106,
+      "question": "The main advantage of Gantt chart is:",
+      "options": {
+        "A": "Shows detailed cost structure",
+        "B": "Shows dependencies and timeline visually",
+        "C": "Tracks defect rate",
+        "D": "Eliminates risk"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "In project scheduling, a milestone is represented by:",
+      "options": {
+        "A": "Diamond shape",
+        "B": "Rectangle",
+        "C": "Circle",
+        "D": "Arrow"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 108,
+      "question": "The critical path determines:",
+      "options": {
+        "A": "Maximum delay tolerance",
+        "B": "Minimum project duration",
+        "C": "Budget buffer",
+        "D": "Quality metrics"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 109,
+      "question": "If a task on the critical path is delayed by 5 days, the project will be delayed by:",
+      "options": {
+        "A": "0 days",
+        "B": "5 days",
+        "C": "10 days",
+        "D": "Depends on budget"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 110,
+      "question": "The main focus of resource leveling is to:",
+      "options": {
+        "A": "Maximize resource usage",
+        "B": "Avoid resource overallocation",
+        "C": "Reduce quality defects",
+        "D": "Control scope creep"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "question": "Crashing a project involves:",
+      "options": {
+        "A": "Reducing cost",
+        "B": "Adding resources to reduce duration",
+        "C": "Eliminating tasks",
+        "D": "Freezing requirements"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "question": "Fast tracking involves:",
+      "options": {
+        "A": "Doing tasks sequentially",
+        "B": "Doing tasks in parallel",
+        "C": "Increasing cost",
+        "D": "Delaying start"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "question": "The risk management process begins with:",
+      "options": {
+        "A": "Risk analysis",
+        "B": "Risk identification",
+        "C": "Risk response planning",
+        "D": "Risk tracking"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "question": "A risk with high probability and low impact should be:",
+      "options": {
+        "A": "Ignored",
+        "B": "Transferred",
+        "C": "Monitored",
+        "D": "Escalated"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 115,
+      "question": "A risk with high impact and low probability should be:",
+      "options": {
+        "A": "Avoided",
+        "B": "Transferred or insured",
+        "C": "Ignored",
+        "D": "Accepted"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "The qualitative risk analysis involves:",
+      "options": {
+        "A": "Numeric probability calculations",
+        "B": "Prioritizing risks based on impact and probability",
+        "C": "Implementing mitigation plans",
+        "D": "Scheduling responses"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "A risk register includes:",
+      "options": {
+        "A": "Only risk names",
+        "B": "Risk details and response plans",
+        "C": "Only schedule delays",
+        "D": "Quality metrics"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "question": "Contingency reserve is used for:",
+      "options": {
+        "A": "Unknown unknowns",
+        "B": "Known risks",
+        "C": "Profit calculation",
+        "D": "Resource allocation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "Management reserve is used for:",
+      "options": {
+        "A": "Scope control",
+        "B": "Unknown risks",
+        "C": "Risk avoidance",
+        "D": "Team training"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "question": "Which of the following is a risk response strategy?",
+      "options": {
+        "A": "Fast tracking",
+        "B": "Risk avoidance",
+        "C": "Sprint planning",
+        "D": "Resource allocation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "question": "Which risk response involves shifting the impact to a third party?",
+      "options": {
+        "A": "Mitigation",
+        "B": "Avoidance",
+        "C": "Transfer",
+        "D": "Acceptance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "Which risk response involves doing nothing and accepting the risk?",
+      "options": {
+        "A": "Mitigation",
+        "B": "Avoidance",
+        "C": "Transfer",
+        "D": "Acceptance"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 123,
+      "question": "The communication plan specifies:",
+      "options": {
+        "A": "Testing strategy",
+        "B": "Who communicates what, when, and how",
+        "C": "Cost baselines",
+        "D": "Quality checklists"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "The main barrier to effective communication is:",
+      "options": {
+        "A": "Too many meetings",
+        "B": "Noise",
+        "C": "Technology",
+        "D": "Lack of time"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "Active listening in project communication means:",
+      "options": {
+        "A": "Hearing only key points",
+        "B": "Asking clarifying questions and giving feedback",
+        "C": "Interrupting frequently",
+        "D": "Making notes silently"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "question": "Which of the following is a formal communication channel?",
+      "options": {
+        "A": "Coffee break discussions",
+        "B": "Project status report",
+        "C": "Casual chats",
+        "D": "Instant messaging"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "question": "A project stakeholder is defined as:",
+      "options": {
+        "A": "Only the project team",
+        "B": "Anyone affected by the project",
+        "C": "Only the project manager",
+        "D": "Only external customers"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "question": "The stakeholder engagement plan helps to:",
+      "options": {
+        "A": "Define risks",
+        "B": "Increase stakeholder buy-in",
+        "C": "Develop cost estimates",
+        "D": "Track coding progress"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 129,
+      "question": "The RACI matrix is used for:",
+      "options": {
+        "A": "Cost estimation",
+        "B": "Defining roles and responsibilities",
+        "C": "Risk management",
+        "D": "Quality assurance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 130,
+      "question": "In RACI, 'R' stands for:",
+      "options": {
+        "A": "Responsible",
+        "B": "Review",
+        "C": "Result",
+        "D": "Report"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 131,
+      "question": "In RACI, 'A' stands for:",
+      "options": {
+        "A": "Accountable",
+        "B": "Analysis",
+        "C": "Action",
+        "D": "Approval"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 132,
+      "question": "In RACI, 'C' stands for:",
+      "options": {
+        "A": "Consulted",
+        "B": "Completed",
+        "C": "Closed",
+        "D": "Checked"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 133,
+      "question": "In RACI, 'I' stands for:",
+      "options": {
+        "A": "Informed",
+        "B": "Implemented",
+        "C": "Initiated",
+        "D": "Inspected"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 134,
+      "question": "The main purpose of a responsibility matrix is to:",
+      "options": {
+        "A": "Define roles clearly",
+        "B": "Track defects",
+        "C": "Manage cost",
+        "D": "Track schedule variance"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 135,
+      "question": "Which document describes how the project will be executed and controlled?",
+      "options": {
+        "A": "Project Charter",
+        "B": "Project Management Plan",
+        "C": "Stakeholder Register",
+        "D": "Risk Register"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 136,
+      "question": "The project charter is authorized by:",
+      "options": {
+        "A": "Project manager",
+        "B": "Sponsor",
+        "C": "Customer",
+        "D": "Team"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "question": "Scope creep is best managed through:",
+      "options": {
+        "A": "Quality control",
+        "B": "Change control process",
+        "C": "Communication plan",
+        "D": "Testing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "The triple constraint of project management consists of:",
+      "options": {
+        "A": "Scope, Cost, Time",
+        "B": "Scope, Quality, HR",
+        "C": "Cost, Quality, Communication",
+        "D": "Time, Stakeholders, Risk"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 139,
+      "question": "The project scope statement includes:",
+      "options": {
+        "A": "Risk responses",
+        "B": "Inclusions and exclusions",
+        "C": "Test plans",
+        "D": "Earned value"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "question": "Which of the following is a scope validation technique?",
+      "options": {
+        "A": "Inspection",
+        "B": "Crashing",
+        "C": "Risk monitoring",
+        "D": "Histogram analysis"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "question": "Configuration management deals with:",
+      "options": {
+        "A": "Change control of project artifacts",
+        "B": "Cost variance",
+        "C": "Schedule compression",
+        "D": "Quality analysis"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 142,
+      "question": "Baseline in project management refers to:",
+      "options": {
+        "A": "Initial approved version of plan",
+        "B": "Final cost after completion",
+        "C": "Stakeholder register",
+        "D": "Risk response"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 143,
+      "question": "Which of the following is NOT part of change control board responsibilities?",
+      "options": {
+        "A": "Approving changes",
+        "B": "Rejecting changes",
+        "C": "Implementing changes directly",
+        "D": "Reviewing change impact"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 144,
+      "question": "A project ends when:",
+      "options": {
+        "A": "All team members resign",
+        "B": "Objectives are met or terminated",
+        "C": "Budget is exceeded",
+        "D": "New sponsor is assigned"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 145,
+      "question": "Closing a project includes:",
+      "options": {
+        "A": "Archiving project documents",
+        "B": "Starting new project",
+        "C": "Hiring more resources",
+        "D": "Restarting planning"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "The lessons learned document is prepared during:",
+      "options": {
+        "A": "Initiation",
+        "B": "Planning",
+        "C": "Execution",
+        "D": "Closing"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 147,
+      "question": "Procurement management deals with:",
+      "options": {
+        "A": "Scope validation",
+        "B": "Acquiring goods and services",
+        "C": "Risk mitigation",
+        "D": "Testing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "question": "A fixed-price contract involves:",
+      "options": {
+        "A": "Variable payment",
+        "B": "Predetermined total cost",
+        "C": "Daily rate changes",
+        "D": "Unknown budget"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 149,
+      "question": "A cost-reimbursable contract involves:",
+      "options": {
+        "A": "Fixed payments only",
+        "B": "Reimbursement of actual costs plus fee",
+        "C": "Lump sum payments",
+        "D": "No payments"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 150,
+      "question": "In procurement, the seller is also referred to as the:",
+      "options": {
+        "A": "Buyer",
+        "B": "Vendor",
+        "C": "Sponsor",
+        "D": "Stakeholder"
+      },
+      "answer": "B"
     }
-]
+  ]
 }
+
+
