@@ -1,0 +1,1655 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "What is the main motivation for image processing according to the notes?",
+      "options": {
+        "A": "To change image colors for artistic purposes only",
+        "B": "To improve pictorial information and extract meaningful details",
+        "C": "To compress videos only",
+        "D": "To create random noise patterns"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT listed as an application of image processing?",
+      "options": {
+        "A": "Medical domain",
+        "B": "Industrial automation",
+        "C": "Astrological chart prediction",
+        "D": "Security and surveillance"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "In analog-to-digital image conversion, what are the two main processes?",
+      "options": {
+        "A": "Encoding and decoding",
+        "B": "Sampling and quantization",
+        "C": "Filtering and segmentation",
+        "D": "Compression and encryption"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "What is the range of pixel values in a grayscale image?",
+      "options": {
+        "A": "0 to 1",
+        "B": "0 to 255",
+        "C": "1 to 255",
+        "D": "-128 to 127"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "How many channels does a color image have?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Which method assigns different weights to RGB components during conversion to grayscale?",
+      "options": {
+        "A": "Arithmetic mean method",
+        "B": "Histogram method",
+        "C": "Luminance method",
+        "D": "Normalization method"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "In the luminance method, which color component has the highest weight?",
+      "options": {
+        "A": "Red",
+        "B": "Green",
+        "C": "Blue",
+        "D": "All equal"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "In image quantization, which aspect of the signal is discretized?",
+      "options": {
+        "A": "Time axis",
+        "B": "Amplitude axis",
+        "C": "Frequency axis",
+        "D": "Phase axis"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "Dynamic range in an image represents the difference between:",
+      "options": {
+        "A": "Brightest and darkest intensities",
+        "B": "Color and hue values",
+        "C": "Horizontal and vertical resolutions",
+        "D": "Frame rates"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "Higher spatial resolution means:",
+      "options": {
+        "A": "Larger pixel size and less detail",
+        "B": "Smaller pixel size and more detail",
+        "C": "Higher dynamic range",
+        "D": "Lower intensity resolution"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "What does DPI stand for in image terminology?",
+      "options": {
+        "A": "Dots Per Inch",
+        "B": "Data Pixel Intensity",
+        "C": "Digital Pixel Index",
+        "D": "Depth Per Image"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "How many intensity levels exist in an 8-bit image?",
+      "options": {
+        "A": "128",
+        "B": "256",
+        "C": "512",
+        "D": "1024"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT a basic relationship between pixels?",
+      "options": {
+        "A": "Four neighbors",
+        "B": "Diagonal neighbors",
+        "C": "Circular neighbors",
+        "D": "Eight neighbors"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "What does adjacency define in image processing?",
+      "options": {
+        "A": "Spatial arrangement of pixels around a central pixel",
+        "B": "Frequency variation in an image",
+        "C": "Color intensity mapping",
+        "D": "Image compression ratio"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "In 8-adjacency, how are pixels related?",
+      "options": {
+        "A": "Only vertical neighbors are connected",
+        "B": "Only horizontal neighbors are connected",
+        "C": "All surrounding eight pixels are considered",
+        "D": "Only diagonal neighbors are connected"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "Which distance measure forms a diamond pattern around a pixel?",
+      "options": {
+        "A": "Euclidean distance",
+        "B": "City block distance",
+        "C": "Chessboard distance",
+        "D": "Cosine distance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "Euclidean distance between points (x,y) and (s,t) is given by:",
+      "options": {
+        "A": "|x−s| + |y−t|",
+        "B": "Max{|x−s|, |y−t|}",
+        "C": "√((x−s)² + (y−t)²)",
+        "D": "Min{|x−s|, |y−t|}"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "Which operation is used to combine two images pixel-wise?",
+      "options": {
+        "A": "Addition",
+        "B": "Segmentation",
+        "C": "Rotation",
+        "D": "Transformation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Image subtraction is mainly used to:",
+      "options": {
+        "A": "Enhance brightness",
+        "B": "Detect changes between images",
+        "C": "Compress data",
+        "D": "Blend two scenes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "Which transformation removes shading effects from an image?",
+      "options": {
+        "A": "Addition",
+        "B": "Subtraction",
+        "C": "Multiplication and division",
+        "D": "Translation"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is NOT a geometric spatial transformation?",
+      "options": {
+        "A": "Scaling",
+        "B": "Rotation",
+        "C": "Shear",
+        "D": "Quantization"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 22,
+      "question": "Affine transformation preserves which properties?",
+      "options": {
+        "A": "Color saturation and hue",
+        "B": "Collinearity and parallelism",
+        "C": "Brightness and contrast",
+        "D": "Pixel adjacency"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Which interpolation method gives smoother results than bilinear interpolation?",
+      "options": {
+        "A": "Nearest neighbor",
+        "B": "Bicubic",
+        "C": "Logarithmic",
+        "D": "Threshold-based"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "Image registration is used to:",
+      "options": {
+        "A": "Segment objects",
+        "B": "Align multiple images of the same scene",
+        "C": "Enhance contrast",
+        "D": "Compress image data"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is NOT a step in image registration?",
+      "options": {
+        "A": "Feature detection",
+        "B": "Feature matching",
+        "C": "Compression",
+        "D": "Transformation model"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 26,
+      "question": "The inner product of two vectors represents:",
+      "options": {
+        "A": "Image compression ratio",
+        "B": "Similarity between vectors",
+        "C": "Number of pixels",
+        "D": "Color balance"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "A 16-bit image has how many intensity levels?",
+      "options": {
+        "A": "255",
+        "B": "1024",
+        "C": "65536",
+        "D": "32768"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "question": "What is the purpose of intensity transformation?",
+      "options": {
+        "A": "To alter pixel intensities using mathematical functions",
+        "B": "To resize an image",
+        "C": "To change image color model",
+        "D": "To compress image data"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "Which transformation enhances dark areas in an image dominated by black regions?",
+      "options": {
+        "A": "Image negative",
+        "B": "Log transformation",
+        "C": "Power law transformation",
+        "D": "Histogram equalization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "What is the formula for image negative transformation?",
+      "options": {
+        "A": "S = L + r",
+        "B": "S = L − 1 − r",
+        "C": "S = L × r",
+        "D": "S = log(1 + r)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "question": "Log transformation mainly expands which part of pixel intensities?",
+      "options": {
+        "A": "High intensity values",
+        "B": "Low intensity values",
+        "C": "Midrange values",
+        "D": "Negative values"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "In power law transformation, gamma less than 1 enhances:",
+      "options": {
+        "A": "Bright pixels",
+        "B": "Dark pixels",
+        "C": "Edges only",
+        "D": "No change"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "question": "Gamma greater than 1 in power law transformation enhances:",
+      "options": {
+        "A": "Dark areas",
+        "B": "Bright areas",
+        "C": "Edges",
+        "D": "Background only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "question": "Contrast stretching helps to:",
+      "options": {
+        "A": "Compress the image data",
+        "B": "Expand intensity range of low contrast images",
+        "C": "Reduce spatial resolution",
+        "D": "Convert color to grayscale"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "Thresholding converts a grayscale image into:",
+      "options": {
+        "A": "Binary image",
+        "B": "Color image",
+        "C": "Histogram image",
+        "D": "3D surface image"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "What does bit-plane slicing help to analyze?",
+      "options": {
+        "A": "Noise patterns",
+        "B": "Importance of individual bits in an image",
+        "C": "Color saturation levels",
+        "D": "Frequency domain data"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Which bit planes hold the most visual information?",
+      "options": {
+        "A": "Lowest bit planes",
+        "B": "Highest bit planes",
+        "C": "All equally",
+        "D": "Middle bit planes"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 38,
+      "question": "What does a histogram represent?",
+      "options": {
+        "A": "Pixel intensities versus their frequencies",
+        "B": "Color components versus hue",
+        "C": "Spatial coordinates of pixels",
+        "D": "Compression ratio versus resolution"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "question": "If an image's histogram is biased toward lower intensities, the image is:",
+      "options": {
+        "A": "Bright",
+        "B": "Dark",
+        "C": "High contrast",
+        "D": "Uniform"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Histogram equalization aims to make the histogram:",
+      "options": {
+        "A": "Skewed",
+        "B": "Uniform",
+        "C": "Bimodal",
+        "D": "Random"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "Which formula defines histogram equalization transformation?",
+      "options": {
+        "A": "Sk = L−1 Σ P(rj)",
+        "B": "Sk = r/L",
+        "C": "Sk = log(r)",
+        "D": "Sk = L × P(rk)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "Histogram specification allows:",
+      "options": {
+        "A": "Automatic equalization only",
+        "B": "Custom target histogram shaping",
+        "C": "Reducing resolution",
+        "D": "Cropping image edges"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "question": "Local histogram processing is applied to:",
+      "options": {
+        "A": "Entire image",
+        "B": "Pixel neighborhoods",
+        "C": "Only color channels",
+        "D": "Frequency domain data"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "question": "What is the purpose of a convolution kernel?",
+      "options": {
+        "A": "It acts as a weighting mask for pixel neighborhoods",
+        "B": "It compresses image data",
+        "C": "It increases pixel count",
+        "D": "It changes image resolution only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "Box filter is also known as:",
+      "options": {
+        "A": "Mean filter",
+        "B": "Median filter",
+        "C": "Max filter",
+        "D": "Edge filter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "What is the effect of a smoothing filter on an image?",
+      "options": {
+        "A": "Sharpens details",
+        "B": "Blurs or reduces sharp transitions",
+        "C": "Increases contrast",
+        "D": "Inverts colors"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "Weighted average filters give highest weight to:",
+      "options": {
+        "A": "Diagonal neighbors",
+        "B": "Corner pixels",
+        "C": "Central pixel",
+        "D": "Boundary pixels"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "Why are normalized kernels used?",
+      "options": {
+        "A": "To maintain overall brightness of the image",
+        "B": "To increase sharpness",
+        "C": "To reduce computation time",
+        "D": "To perform edge detection"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "Which type of filter is isotropic and reduces blurring compared to box filter?",
+      "options": {
+        "A": "Gaussian filter",
+        "B": "Weighted average filter",
+        "C": "Median filter",
+        "D": "Max filter"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "question": "What does padding ensure during convolution?",
+      "options": {
+        "A": "Increases image resolution",
+        "B": "Keeps output image size same as input",
+        "C": "Adds random noise to image",
+        "D": "Improves histogram"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "In spatial filtering, if a filter passes only low frequencies, it is called a:",
+      "options": {
+        "A": "High pass filter",
+        "B": "Band reject filter",
+        "C": "Low pass filter",
+        "D": "Notch filter"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 52,
+      "question": "Which filter passes a specific range of frequencies while rejecting others?",
+      "options": {
+        "A": "Band pass filter",
+        "B": "Low pass filter",
+        "C": "High pass filter",
+        "D": "Box filter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 53,
+      "question": "A linear spatial filter performs which operation on pixels?",
+      "options": {
+        "A": "Convolution",
+        "B": "Thresholding",
+        "C": "Quantization",
+        "D": "Segmentation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Smoothing filters are generally used to:",
+      "options": {
+        "A": "Reduce noise and irrelevant details",
+        "B": "Enhance edges",
+        "C": "Compress image",
+        "D": "Increase intensity levels"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "Which kernel replaces each pixel by the average of its neighborhood?",
+      "options": {
+        "A": "Box filter",
+        "B": "Sobel filter",
+        "C": "Laplacian filter",
+        "D": "Gaussian high-pass filter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "question": "What happens if the sum of kernel elements is greater than 1?",
+      "options": {
+        "A": "Image gets brighter",
+        "B": "Image gets darker",
+        "C": "Image becomes sharper",
+        "D": "No effect"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "A median filter is mainly used for:",
+      "options": {
+        "A": "Edge enhancement",
+        "B": "Noise reduction (salt and pepper)",
+        "C": "Color balancing",
+        "D": "Image rotation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "Gaussian filter gives more weight to:",
+      "options": {
+        "A": "Corner pixels",
+        "B": "Central pixels",
+        "C": "Edge pixels",
+        "D": "All pixels equally"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "question": "Edge detection filters highlight:",
+      "options": {
+        "A": "Uniform regions",
+        "B": "Regions with intensity changes",
+        "C": "Low contrast areas",
+        "D": "Color transitions only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "Which operator is used for edge detection?",
+      "options": {
+        "A": "Prewitt",
+        "B": "Box",
+        "C": "Mean",
+        "D": "Gaussian blur"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Sobel operator detects edges by combining which components?",
+      "options": {
+        "A": "Horizontal and vertical gradients",
+        "B": "Color and brightness",
+        "C": "Frequency and phase",
+        "D": "Contrast and saturation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "question": "Which operator calculates the second derivative of the image?",
+      "options": {
+        "A": "Prewitt",
+        "B": "Sobel",
+        "C": "Laplacian",
+        "D": "Gaussian"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "The Laplacian of Gaussian (LoG) combines:",
+      "options": {
+        "A": "Edge detection and smoothing",
+        "B": "Color balancing and brightness",
+        "C": "Histogram and quantization",
+        "D": "Thresholding and compression"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "Canny edge detector is known for:",
+      "options": {
+        "A": "Simple averaging",
+        "B": "Accurate and noise-free edge detection",
+        "C": "Frequency domain filtering",
+        "D": "Image compression"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Hough Transform is used to detect:",
+      "options": {
+        "A": "Lines and circles",
+        "B": "Colors",
+        "C": "Texture only",
+        "D": "Noise"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "Harris Corner Detector is used for detecting:",
+      "options": {
+        "A": "Edges only",
+        "B": "Corners or intersection of edges",
+        "C": "Color patches",
+        "D": "Image gradients"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "Which color model represents colors using Red, Green, and Blue components?",
+      "options": {
+        "A": "HSV",
+        "B": "CMYK",
+        "C": "RGB",
+        "D": "YUV"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "question": "HSV color model components are:",
+      "options": {
+        "A": "Hue, Saturation, Value",
+        "B": "Hue, Shade, Vibrance",
+        "C": "Highlight, Saturation, Volume",
+        "D": "Hue, Spectrum, Value"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "question": "Color transforms are used for:",
+      "options": {
+        "A": "Converting colors between models",
+        "B": "Compressing image data",
+        "C": "Enhancing edge details",
+        "D": "Noise reduction only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "Morphological operations are based on:",
+      "options": {
+        "A": "Shape of objects",
+        "B": "Image color distribution",
+        "C": "Histogram intensity",
+        "D": "Image contrast"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "question": "GLCM stands for:",
+      "options": {
+        "A": "Grey Level Co-occurrence Matrix",
+        "B": "Global Linear Color Mapping",
+        "C": "Gradient Level Contrast Map",
+        "D": "Grey Level Channel Model"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 72,
+      "question": "GLCM is used for analyzing:",
+      "options": {
+        "A": "Texture features",
+        "B": "Color components",
+        "C": "Edges only",
+        "D": "Frequency components"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "question": "Optical flow estimates:",
+      "options": {
+        "A": "Apparent motion between consecutive frames",
+        "B": "Histogram values",
+        "C": "Color saturation",
+        "D": "Pixel intensity distribution"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 74,
+      "question": "Which mathematical transform is widely used in JPEG compression?",
+      "options": {
+        "A": "Fourier Transform",
+        "B": "Discrete Cosine Transform (DCT)",
+        "C": "Wavelet Transform",
+        "D": "Hadamard Transform"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "question": "DCT primarily concentrates image energy in:",
+      "options": {
+        "A": "High-frequency coefficients",
+        "B": "Low-frequency coefficients",
+        "C": "Mid-frequency components",
+        "D": "Random noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "question": "Which technique is used for reducing data redundancy in images?",
+      "options": {
+        "A": "Image enhancement",
+        "B": "Image compression",
+        "C": "Histogram specification",
+        "D": "Filtering"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "question": "Which type of compression maintains exact data after decompression?",
+      "options": {
+        "A": "Lossless compression",
+        "B": "Lossy compression",
+        "C": "Hybrid compression",
+        "D": "Temporal compression"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 78,
+      "question": "Viola–Jones algorithm is based on:",
+      "options": {
+        "A": "Haar-like features and boosting",
+        "B": "Hough Transform",
+        "C": "Histogram of Oriented Gradients",
+        "D": "SIFT keypoints"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 79,
+      "question": "HOG stands for:",
+      "options": {
+        "A": "Histogram of Oriented Gradients",
+        "B": "Histogram of Gaussian Values",
+        "C": "High Order Gradients",
+        "D": "Homogeneous Orientation Grid"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 80,
+      "question": "SIFT features are invariant to:",
+      "options": {
+        "A": "Scale and rotation",
+        "B": "Brightness only",
+        "C": "Translation only",
+        "D": "Compression ratio"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 81,
+      "question": "PCA is used for:",
+      "options": {
+        "A": "Dimensionality reduction",
+        "B": "Histogram calculation",
+        "C": "Color model conversion",
+        "D": "Noise removal"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 82,
+      "question": "Depth cameras measure:",
+      "options": {
+        "A": "Color intensity only",
+        "B": "Distance to objects in a scene",
+        "C": "Pixel area",
+        "D": "Frame rate"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "question": "Salient object detection is used for:",
+      "options": {
+        "A": "Highlighting important regions in an image",
+        "B": "Color correction",
+        "C": "Edge blurring",
+        "D": "Removing background noise"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 84,
+      "question": "Which sensor type provides depth information in 3D imaging?",
+      "options": {
+        "A": "RGB camera",
+        "B": "Depth camera",
+        "C": "Infrared sensor only",
+        "D": "Flatbed scanner"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "question": "Image enhancement in the frequency domain is applied by modifying:",
+      "options": {
+        "A": "Fourier coefficients",
+        "B": "Pixel colors",
+        "C": "Intensity histograms",
+        "D": "RGB ratios"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 86,
+      "question": "Which domain directly deals with pixel manipulation?",
+      "options": {
+        "A": "Spatial domain",
+        "B": "Frequency domain",
+        "C": "Temporal domain",
+        "D": "Transform domain"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 87,
+      "question": "Which image processing technique helps to reveal hidden local details?",
+      "options": {
+        "A": "Local histogram equalization",
+        "B": "Log transformation",
+        "C": "Gamma correction",
+        "D": "Median filtering"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 88,
+      "question": "What happens to image details as the number of intensity levels decreases?",
+      "options": {
+        "A": "Details increase",
+        "B": "Details remain constant",
+        "C": "Details decrease",
+        "D": "Image brightens"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 89,
+      "question": "Which operation uses kernel sliding and weighted summation?",
+      "options": {
+        "A": "Convolution",
+        "B": "Sampling",
+        "C": "Thresholding",
+        "D": "Quantization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 90,
+      "question": "What does normalization of a kernel ensure?",
+      "options": {
+        "A": "Sum of kernel elements equals one",
+        "B": "Image is sharpened",
+        "C": "Kernel has random weights",
+        "D": "Edges are enhanced"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 91,
+      "question": "Median filter belongs to which category?",
+      "options": {
+        "A": "Linear filter",
+        "B": "Non-linear filter",
+        "C": "Transform filter",
+        "D": "Frequency filter"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 92,
+      "question": "Gaussian filter is an example of which type of filter?",
+      "options": {
+        "A": "Non-linear",
+        "B": "Linear",
+        "C": "Transform",
+        "D": "Band-pass"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 93,
+      "question": "Which process involves discretizing both time and amplitude axes?",
+      "options": {
+        "A": "Sampling only",
+        "B": "Quantization only",
+        "C": "Analog-to-digital conversion",
+        "D": "Histogram equalization"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 94,
+      "question": "Which image type has pixel values limited to 0 and 1?",
+      "options": {
+        "A": "Grayscale image",
+        "B": "Binary image",
+        "C": "Color image",
+        "D": "HDR image"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 95,
+      "question": "What is the formula for Min–Max contrast stretching?",
+      "options": {
+        "A": "S = (r − Imin) × ((Omax − Omin)/(Imax − Imin)) + Omin",
+        "B": "S = L − 1 − r",
+        "C": "S = c log(1 + r)",
+        "D": "S = c r^γ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 96,
+      "question": "Which transformation enhances details in specific intensity ranges?",
+      "options": {
+        "A": "Intensity level slicing",
+        "B": "Log transformation",
+        "C": "Power law correction",
+        "D": "Histogram equalization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 97,
+      "question": "What does image segmentation aim to do?",
+      "options": {
+        "A": "Divide image into meaningful regions",
+        "B": "Blur the entire image",
+        "C": "Compress the image",
+        "D": "Change color space"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 98,
+      "question": "Which hardware is mentioned as part of an image processing system?",
+      "options": {
+        "A": "Scanners and cameras",
+        "B": "Projectors only",
+        "C": "Speakers and microphones",
+        "D": "Hard drives only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 99,
+      "question": "What is the smallest possible neighborhood for intensity transformation?",
+      "options": {
+        "A": "3×3",
+        "B": "1×1",
+        "C": "5×5",
+        "D": "2×2"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "question": "What is the programming environment mentioned for image processing labs?",
+      "options": {
+        "A": "C++ with OpenGL",
+        "B": "Python with OpenCV on Google Colab or VS Code",
+        "C": "Java with MATLAB",
+        "D": "R with TensorFlow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 101,
+      "question": "Which transform converts a spatial domain image into frequency domain representation?",
+      "options": {
+        "A": "Fourier Transform",
+        "B": "Walsh Transform",
+        "C": "Hough Transform",
+        "D": "Laplacian Operator"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "question": "The Fourier Transform decomposes an image into:",
+      "options": {
+        "A": "Spatial components",
+        "B": "Frequency components",
+        "C": "Color components",
+        "D": "Histogram bins"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "question": "What is the purpose of the inverse Fourier Transform?",
+      "options": {
+        "A": "Convert image to grayscale",
+        "B": "Reconstruct image from frequency domain",
+        "C": "Perform histogram equalization",
+        "D": "Apply spatial filtering"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "question": "What is the central peak in a Fourier spectrum known as?",
+      "options": {
+        "A": "High-frequency component",
+        "B": "Low-frequency component",
+        "C": "Noise spike",
+        "D": "Quantization artifact"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "question": "Which type of filter enhances edges in the frequency domain?",
+      "options": {
+        "A": "High pass filter",
+        "B": "Low pass filter",
+        "C": "Band stop filter",
+        "D": "Median filter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 106,
+      "question": "Which type of noise appears as black and white dots in an image?",
+      "options": {
+        "A": "Gaussian noise",
+        "B": "Salt and pepper noise",
+        "C": "Speckle noise",
+        "D": "Poisson noise"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "question": "Gaussian noise is characterized by which probability distribution?",
+      "options": {
+        "A": "Uniform",
+        "B": "Normal",
+        "C": "Poisson",
+        "D": "Exponential"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "Which filter is most effective against salt and pepper noise?",
+      "options": {
+        "A": "Mean filter",
+        "B": "Gaussian filter",
+        "C": "Median filter",
+        "D": "Laplacian filter"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "question": "Which filter emphasizes high-frequency components for sharpening?",
+      "options": {
+        "A": "High pass filter",
+        "B": "Low pass filter",
+        "C": "Median filter",
+        "D": "Box filter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "Unsharp masking is a technique used for:",
+      "options": {
+        "A": "Blurring images",
+        "B": "Sharpening images",
+        "C": "Color balancing",
+        "D": "Reducing brightness"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "question": "In image restoration, degradation is modeled as:",
+      "options": {
+        "A": "Multiplicative or additive noise",
+        "B": "Histogram distortion",
+        "C": "Pixel interpolation",
+        "D": "Color saturation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 112,
+      "question": "Which filter uses prior knowledge of the degradation function?",
+      "options": {
+        "A": "Wiener filter",
+        "B": "Mean filter",
+        "C": "Median filter",
+        "D": "Box filter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 113,
+      "question": "Inverse filtering aims to:",
+      "options": {
+        "A": "Enhance contrast",
+        "B": "Remove blur using the degradation function",
+        "C": "Apply low pass filtering",
+        "D": "Remove noise only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "question": "Which method is more robust to noise compared to inverse filtering?",
+      "options": {
+        "A": "Wiener filtering",
+        "B": "Mean filtering",
+        "C": "Sobel operator",
+        "D": "Histogram stretching"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 115,
+      "question": "Which transform provides multi-resolution representation of an image?",
+      "options": {
+        "A": "Fourier Transform",
+        "B": "Wavelet Transform",
+        "C": "Discrete Cosine Transform",
+        "D": "Hough Transform"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "Which type of transform is used in JPEG2000 compression?",
+      "options": {
+        "A": "Fourier Transform",
+        "B": "Wavelet Transform",
+        "C": "DCT",
+        "D": "Hadamard Transform"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "question": "In video processing, a frame refers to:",
+      "options": {
+        "A": "A single still image in a sequence",
+        "B": "A compressed block of pixels",
+        "C": "A histogram of motion vectors",
+        "D": "A spectral component"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 118,
+      "question": "Temporal redundancy in video refers to:",
+      "options": {
+        "A": "Repetition of information across consecutive frames",
+        "B": "Duplicate pixels in one frame",
+        "C": "Low contrast regions",
+        "D": "Edge repetition in single images"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 119,
+      "question": "Motion estimation is used for:",
+      "options": {
+        "A": "Detecting motion between frames",
+        "B": "Color segmentation",
+        "C": "Enhancing texture",
+        "D": "Histogram smoothing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 120,
+      "question": "Which block-matching algorithm is commonly used for motion estimation?",
+      "options": {
+        "A": "Full search method",
+        "B": "Histogram equalization",
+        "C": "Harris corner detection",
+        "D": "Gaussian blur"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 121,
+      "question": "What is motion compensation?",
+      "options": {
+        "A": "Adjusting one frame based on motion detected in another",
+        "B": "Blurring moving objects",
+        "C": "Detecting colors of moving pixels",
+        "D": "Cropping moving regions"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 122,
+      "question": "Video compression removes which types of redundancy?",
+      "options": {
+        "A": "Spatial and temporal",
+        "B": "Color and texture",
+        "C": "Edge and frequency",
+        "D": "Hue and saturation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "question": "MPEG stands for:",
+      "options": {
+        "A": "Moving Picture Experts Group",
+        "B": "Multiple Pixel Encoding Grid",
+        "C": "Motion Picture Extraction Guide",
+        "D": "Moving Pixel Encoding Generator"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 124,
+      "question": "In MPEG, I-frames are:",
+      "options": {
+        "A": "Independent reference frames",
+        "B": "Predicted frames",
+        "C": "Bidirectional frames",
+        "D": "Transition frames"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 125,
+      "question": "Which frames in MPEG are encoded using motion compensation from previous frames?",
+      "options": {
+        "A": "B-frames",
+        "B": "I-frames",
+        "C": "P-frames",
+        "D": "Reference frames"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 126,
+      "question": "Which frame type uses both past and future frames for prediction?",
+      "options": {
+        "A": "B-frames",
+        "B": "I-frames",
+        "C": "P-frames",
+        "D": "Keyframes"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "question": "Frame rate is measured in:",
+      "options": {
+        "A": "Frames per second",
+        "B": "Bits per second",
+        "C": "Pixels per inch",
+        "D": "Cycles per frame"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 128,
+      "question": "In RGB to grayscale conversion, the highest contribution comes from:",
+      "options": {
+        "A": "Green channel",
+        "B": "Blue channel",
+        "C": "Red channel",
+        "D": "All equally"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 129,
+      "question": "What is a color histogram used for?",
+      "options": {
+        "A": "Describing color distribution in an image",
+        "B": "Detecting noise",
+        "C": "Computing pixel distance",
+        "D": "Filtering edges"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "question": "Connected component labeling identifies:",
+      "options": {
+        "A": "Groups of connected pixels with same intensity",
+        "B": "Only color changes",
+        "C": "Noise points",
+        "D": "Histogram peaks"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 131,
+      "question": "Erosion in morphological processing does what?",
+      "options": {
+        "A": "Shrinks bright regions",
+        "B": "Expands bright regions",
+        "C": "Adds noise",
+        "D": "Smoothens contrast"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 132,
+      "question": "Dilation in morphological processing:",
+      "options": {
+        "A": "Expands object boundaries",
+        "B": "Reduces object size",
+        "C": "Reduces contrast",
+        "D": "Equalizes histogram"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 133,
+      "question": "Opening operation is a combination of:",
+      "options": {
+        "A": "Erosion followed by dilation",
+        "B": "Dilation followed by erosion",
+        "C": "Thresholding and dilation",
+        "D": "Histogram equalization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 134,
+      "question": "Closing operation is defined as:",
+      "options": {
+        "A": "Dilation followed by erosion",
+        "B": "Erosion followed by dilation",
+        "C": "Convolution and thresholding",
+        "D": "Histogram matching"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 135,
+      "question": "Which morphological operation helps fill small holes in objects?",
+      "options": {
+        "A": "Closing",
+        "B": "Opening",
+        "C": "Erosion",
+        "D": "Smoothing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 136,
+      "question": "Skeletonization reduces an object to:",
+      "options": {
+        "A": "A single pixel-wide representation",
+        "B": "Its outer boundary only",
+        "C": "A blurred version",
+        "D": "Binary mask"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 137,
+      "question": "Region growing segmentation starts from:",
+      "options": {
+        "A": "Seed pixels",
+        "B": "Edges",
+        "C": "Histogram peaks",
+        "D": "Random points"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 138,
+      "question": "Watershed segmentation is based on:",
+      "options": {
+        "A": "Topographical surface analogy",
+        "B": "Fourier spectrum",
+        "C": "Color histogram",
+        "D": "DCT coefficients"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 139,
+      "question": "Edge-based segmentation focuses on:",
+      "options": {
+        "A": "Detecting boundaries between regions",
+        "B": "Grouping color similarities",
+        "C": "Matching textures",
+        "D": "Enhancing contrast"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 140,
+      "question": "Boundary representation in segmentation is used for:",
+      "options": {
+        "A": "Describing region shape using edges",
+        "B": "Calculating color intensity",
+        "C": "Histogram equalization",
+        "D": "Data compression"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "question": "Chain code is used for:",
+      "options": {
+        "A": "Representing object boundaries",
+        "B": "Encoding pixel colors",
+        "C": "Histogram plotting",
+        "D": "Wavelet decomposition"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 142,
+      "question": "Moments are used to describe:",
+      "options": {
+        "A": "Shape and spatial distribution of objects",
+        "B": "Color histogram",
+        "C": "Pixel adjacency",
+        "D": "Brightness only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 143,
+      "question": "Feature extraction helps in:",
+      "options": {
+        "A": "Reducing data while preserving relevant information",
+        "B": "Adding more details to an image",
+        "C": "Histogram equalization",
+        "D": "Color enhancement"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 144,
+      "question": "Template matching is used for:",
+      "options": {
+        "A": "Detecting known patterns in an image",
+        "B": "Noise reduction",
+        "C": "Histogram specification",
+        "D": "Quantization"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 145,
+      "question": "Image classification assigns:",
+      "options": {
+        "A": "Labels to image regions based on features",
+        "B": "Brightness values",
+        "C": "Noise categories",
+        "D": "Color weights"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "K-means clustering groups pixels based on:",
+      "options": {
+        "A": "Similarity in feature space",
+        "B": "Sequential order",
+        "C": "Color saturation only",
+        "D": "Intensity difference only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 147,
+      "question": "Supervised classification uses:",
+      "options": {
+        "A": "Predefined training samples",
+        "B": "No prior data",
+        "C": "Histogram matching",
+        "D": "Random seed pixels"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 148,
+      "question": "Unsupervised classification groups pixels using:",
+      "options": {
+        "A": "Clustering algorithms like K-means",
+        "B": "Manual labeling",
+        "C": "Edge detectors",
+        "D": "Histogram analysis only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 149,
+      "question": "Image compression is evaluated using which parameter?",
+      "options": {
+        "A": "Compression ratio",
+        "B": "Frame rate",
+        "C": "Pixel aspect ratio",
+        "D": "Contrast level"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 150,
+      "question": "Which statement best defines image processing?",
+      "options": {
+        "A": "A technique of performing operations on images to extract or enhance useful information",
+        "B": "The process of creating new images from scratch",
+        "C": "Changing image color randomly",
+        "D": "Displaying pictures only"
+      },
+      "answer": "A"
+    }
+  ]
+}
+
