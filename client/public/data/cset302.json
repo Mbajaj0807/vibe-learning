@@ -2,14 +2,828 @@
   "quiz": [
     {
       "id": 1,
-      "question": "Question",
+      "question": "Which of the following best defines a set?",
       "options": {
-        "A": "Option A",
-        "B": "Option B",
-        "C": "Option C",
-        "D": "Option D"
+        "A": "An ordered collection of objects",
+        "B": "An unordered collection of distinct objects",
+        "C": "A table of numbers",
+        "D": "A sequence of characters"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "Which symbol is commonly used to denote 'belongs to' in set theory?",
+      "options": {
+        "A": "⊂",
+        "B": "∪",
+        "C": "∈",
+        "D": "∩"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "The union of two sets A and B includes:",
+      "options": {
+        "A": "Only common elements of A and B",
+        "B": "Only unique elements of A",
+        "C": "All elements of A and B without repetition",
+        "D": "Only elements in A"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "The intersection of sets A and B is represented as:",
+      "options": {
+        "A": "A ∪ B",
+        "B": "A ∩ B",
+        "C": "A − B",
+        "D": "B − A"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "A relation on a set A is a subset of:",
+      "options": {
+        "A": "A × B",
+        "B": "B × A",
+        "C": "A × A",
+        "D": "A ∪ A"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is NOT a property of an equivalence relation?",
+      "options": {
+        "A": "Reflexive",
+        "B": "Symmetric",
+        "C": "Transitive",
+        "D": "Associative"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "question": "A function is defined as:",
+      "options": {
+        "A": "A relation where every input has exactly one output",
+        "B": "A relation where inputs may have multiple outputs",
+        "C": "A set of outputs",
+        "D": "A relation with no mapping"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following represents the logical AND operation?",
+      "options": {
+        "A": "∨",
+        "B": "→",
+        "C": "∧",
+        "D": "¬"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following represents the logical OR operation?",
+      "options": {
+        "A": "∨",
+        "B": "∧",
+        "C": "¬",
+        "D": "→"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "Which of the following represents the negation operator?",
+      "options": {
+        "A": "∨",
+        "B": "→",
+        "C": "∧",
+        "D": "¬"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is a tautology?",
+      "options": {
+        "A": "p ∧ ¬p",
+        "B": "p ∨ ¬p",
+        "C": "¬p ∧ ¬p",
+        "D": "p ∧ q"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "A contradiction is a statement that is:",
+      "options": {
+        "A": "Always true",
+        "B": "Always false",
+        "C": "Sometimes true",
+        "D": "Dependent on variables"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Formal languages are primarily used to:",
+      "options": {
+        "A": "Design programming interfaces",
+        "B": "Precisely describe syntax and semantics",
+        "C": "Explain natural language",
+        "D": "Describe random data"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is an alphabet in formal language theory?",
+      "options": {
+        "A": "Set of variables",
+        "B": "Set of terminals",
+        "C": "Finite set of symbols",
+        "D": "Set of numbers"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "A language over an alphabet is a:",
+      "options": {
+        "A": "Subset of strings formed from the alphabet",
+        "B": "Set of alphabets",
+        "C": "Set of integers",
+        "D": "Number system"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "The class of languages accepted by finite automata is:",
+      "options": {
+        "A": "Context Free",
+        "B": "Context Sensitive",
+        "C": "Regular",
+        "D": "Recursively Enumerable"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "A DFA has:",
+      "options": {
+        "A": "Multiple transitions for a single symbol",
+        "B": "Epsilon transitions",
+        "C": "Exactly one transition for each symbol from each state",
+        "D": "No accepting states"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "NFA differs from DFA because:",
+      "options": {
+        "A": "NFA has multiple start states",
+        "B": "NFA allows multiple transitions for a symbol",
+        "C": "NFA cannot accept regular languages",
+        "D": "NFA cannot be converted to DFA"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Epsilon-NFA allows:",
+      "options": {
+        "A": "No transitions without input",
+        "B": "Epsilon transitions",
+        "C": "Only deterministic transitions",
+        "D": "Infinite alphabets"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "Every NFA can be converted to an equivalent:",
+      "options": {
+        "A": "CFG",
+        "B": "PDA",
+        "C": "DFA",
+        "D": "TM"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "Every epsilon-NFA can be converted to an equivalent:",
+      "options": {
+        "A": "NFA",
+        "B": "DFA",
+        "C": "PDA",
+        "D": "Turing Machine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "The process of reducing the number of states in a DFA without changing its language is called:",
+      "options": {
+        "A": "Conversion",
+        "B": "Minimization",
+        "C": "Expansion",
+        "D": "Construction"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is a regular language?",
+      "options": {
+        "A": "L = { a^n b^n | n ≥ 0 }",
+        "B": "L = { a^n b^m | n, m ≥ 0 }",
+        "C": "L = { a^n b^n c^n | n ≥ 0 }",
+        "D": "L = { 0^n 1^n 2^n | n ≥ 0 }"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "A regular expression represents:",
+      "options": {
+        "A": "A context-free language",
+        "B": "A regular language",
+        "C": "A context-sensitive language",
+        "D": "A Turing decidable language"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "Which operation is represented by '|' in regular expressions?",
+      "options": {
+        "A": "Concatenation",
+        "B": "Union",
+        "C": "Kleene Star",
+        "D": "Intersection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Which operation is represented by '·' in regular expressions?",
+      "options": {
+        "A": "Concatenation",
+        "B": "Union",
+        "C": "Complement",
+        "D": "Star"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 27,
+      "question": "The Kleene star operation means:",
+      "options": {
+        "A": "Zero or more occurrences",
+        "B": "Exactly one occurrence",
+        "C": "One or more occurrences",
+        "D": "Only zero occurrences"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Arden’s Theorem is used for:",
+      "options": {
+        "A": "Solving regular expression equations",
+        "B": "Converting CFG to PDA",
+        "C": "Minimizing DFA",
+        "D": "Constructing Turing Machines"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "The state elimination method is used for:",
+      "options": {
+        "A": "Minimizing DFA",
+        "B": "Converting FA to regular expression",
+        "C": "Constructing epsilon-NFA",
+        "D": "Finding closure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "The Pumping Lemma is used to:",
+      "options": {
+        "A": "Prove that a language is regular",
+        "B": "Prove that a language is not regular",
+        "C": "Convert NFA to DFA",
+        "D": "Minimize DFA"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is a closure property of regular languages?",
+      "options": {
+        "A": "Union",
+        "B": "Concatenation",
+        "C": "Kleene Star",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is a decision property of regular languages?",
+      "options": {
+        "A": "Membership",
+        "B": "Emptiness",
+        "C": "Finiteness",
+        "D": "All of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "A Mealy Machine differs from a Moore Machine in that:",
+      "options": {
+        "A": "Output depends on state only",
+        "B": "Output depends on state and input",
+        "C": "It has no output",
+        "D": "It has more states"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "question": "A Moore Machine's output depends on:",
+      "options": {
+        "A": "Input only",
+        "B": "State only",
+        "C": "Input and state",
+        "D": "Transitions only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "Mealy and Moore machines are:",
+      "options": {
+        "A": "Not equivalent",
+        "B": "Equivalent in power",
+        "C": "Different in accepted language",
+        "D": "Used only in non-regular languages"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "Finite state machines have a:",
+      "options": {
+        "A": "Finite number of states",
+        "B": "Infinite number of states",
+        "C": "Finite number of inputs only",
+        "D": "Recursive set of states"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "A property of finite state machines is:",
+      "options": {
+        "A": "They can count arbitrary large numbers",
+        "B": "They cannot remember unbounded data",
+        "C": "They can recognize all languages",
+        "D": "They always require epsilon transitions"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 38,
+      "question": "The limitation of FSM is:",
+      "options": {
+        "A": "Cannot accept context-free languages",
+        "B": "Cannot accept regular languages",
+        "C": "Cannot perform output",
+        "D": "Cannot be minimized"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "question": "A context-free grammar is a 4-tuple consisting of:",
+      "options": {
+        "A": "(V, T, P, S)",
+        "B": "(Q, Σ, δ, F)",
+        "C": "(V, T, S, F)",
+        "D": "(T, V, L, F)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "In CFG, productions are of the form:",
+      "options": {
+        "A": "Terminal → Variable",
+        "B": "Variable → String of variables and terminals",
+        "C": "Terminal → Terminal",
+        "D": "String → Epsilon"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "Regular grammars generate:",
+      "options": {
+        "A": "Context-free languages",
+        "B": "Regular languages",
+        "C": "Context-sensitive languages",
+        "D": "Recursive languages"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "A right-linear grammar is a type of:",
+      "options": {
+        "A": "Context-free grammar",
+        "B": "Context-sensitive grammar",
+        "C": "Unrestricted grammar",
+        "D": "Recursive grammar"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is generated by right-linear grammar?",
+      "options": {
+        "A": "Regular languages",
+        "B": "Context-free languages",
+        "C": "Context-sensitive languages",
+        "D": "Unrestricted languages"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "Which of the following grammars corresponds to regular languages?",
+      "options": {
+        "A": "Right-linear and left-linear",
+        "B": "Only right-linear",
+        "C": "Only left-linear",
+        "D": "Context-sensitive"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "Left and right derivations refer to:",
+      "options": {
+        "A": "Different languages",
+        "B": "Different order of applying production rules",
+        "C": "Different alphabets",
+        "D": "Different start symbols"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "Leftmost derivation means:",
+      "options": {
+        "A": "Leftmost variable is replaced first",
+        "B": "Rightmost variable is replaced first",
+        "C": "Terminal symbol is replaced first",
+        "D": "None of the above"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "Rightmost derivation means:",
+      "options": {
+        "A": "Leftmost variable is replaced first",
+        "B": "Rightmost variable is replaced first",
+        "C": "Terminal symbol is replaced first",
+        "D": "None of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "An ambiguous grammar has:",
+      "options": {
+        "A": "No parse tree",
+        "B": "Multiple parse trees for the same string",
+        "C": "One parse tree for every string",
+        "D": "No derivation rules"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "Ambiguity in grammar can be removed by:",
+      "options": {
+        "A": "Adding more ambiguity",
+        "B": "Refining production rules",
+        "C": "Removing terminals",
+        "D": "Using more variables"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "question": "A parse tree represents:",
+      "options": {
+        "A": "The structure of a string generated by the grammar",
+        "B": "The DFA states",
+        "C": "The NFA transitions",
+        "D": "The alphabet symbols"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "A left-linear grammar generates:",
+      "options": {
+        "A": "Context-free language",
+        "B": "Regular language",
+        "C": "Context-sensitive language",
+        "D": "Recursive language"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "A grammar is regular if:",
+      "options": {
+        "A": "It has only terminal symbols",
+        "B": "It has production rules of the form A → aB or A → a",
+        "C": "It has no start symbol",
+        "D": "It has unrestricted rules"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "A CFG can generate:",
+      "options": {
+        "A": "Only regular languages",
+        "B": "Some languages beyond regular",
+        "C": "Only context-sensitive",
+        "D": "Recursive enumerable"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 54,
+      "question": "The language L = { a^n b^n | n ≥ 0 } is:",
+      "options": {
+        "A": "Regular",
+        "B": "Context-free but not regular",
+        "C": "Context-sensitive",
+        "D": "Unrestricted"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "The language L = { a^n b^n c^n | n ≥ 0 } is:",
+      "options": {
+        "A": "Regular",
+        "B": "Context-free",
+        "C": "Context-sensitive but not context-free",
+        "D": "Unrestricted only"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "question": "Which of the following can be represented by regular grammar?",
+      "options": {
+        "A": "L = { a^n b^n }",
+        "B": "L = { a^n b^m | n, m ≥ 0 }",
+        "C": "L = { a^n b^n c^n }",
+        "D": "L = { a^n b^n c^n d^n }"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "question": "The main difference between regular and context-free languages is:",
+      "options": {
+        "A": "Regular languages require stack memory",
+        "B": "Context-free languages require stack memory",
+        "C": "Context-free languages are simpler",
+        "D": "Regular languages are more powerful"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "Which of the following statements is true?",
+      "options": {
+        "A": "All regular languages are context-free",
+        "B": "All context-free languages are regular",
+        "C": "Regular and context-free are same",
+        "D": "Context-free is a subset of regular"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "A CFG can be represented using:",
+      "options": {
+        "A": "Transition diagrams",
+        "B": "Production rules",
+        "C": "Truth tables",
+        "D": "Parse graphs only"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "A regular grammar is a subset of:",
+      "options": {
+        "A": "Context-free grammar",
+        "B": "Context-sensitive grammar",
+        "C": "Unrestricted grammar",
+        "D": "Recursive language"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Which grammar is used to define the syntax of programming languages?",
+      "options": {
+        "A": "Regular grammar",
+        "B": "Context-free grammar",
+        "C": "Context-sensitive grammar",
+        "D": "Unrestricted grammar"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "The process of generating strings from a grammar is called:",
+      "options": {
+        "A": "Parsing",
+        "B": "Derivation",
+        "C": "Evaluation",
+        "D": "Validation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "A grammar with left recursion can be:",
+      "options": {
+        "A": "Parsed easily by top-down parsers",
+        "B": "Problematic for top-down parsers",
+        "C": "Ignored in parsing",
+        "D": "Always unambiguous"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "A grammar with right recursion is:",
+      "options": {
+        "A": "Problematic for top-down parsers",
+        "B": "Easier to parse top-down",
+        "C": "Not usable",
+        "D": "Always ambiguous"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Which of the following is NOT a CFG component?",
+      "options": {
+        "A": "Set of variables",
+        "B": "Set of terminals",
+        "C": "Start symbol",
+        "D": "Transition function"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "question": "A left-associative grammar produces parse trees that:",
+      "options": {
+        "A": "Group operators from left",
+        "B": "Group operators from right",
+        "C": "Ignore operator precedence",
+        "D": "Have no associativity"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 67,
+      "question": "A right-associative grammar groups:",
+      "options": {
+        "A": "Operators from left",
+        "B": "Operators from right",
+        "C": "Operators randomly",
+        "D": "Operators equally"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "Removal of ambiguity in grammar is done to:",
+      "options": {
+        "A": "Make parsing efficient",
+        "B": "Increase ambiguity",
+        "C": "Avoid derivations",
+        "D": "Convert grammar to regular"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "question": "Which of the following is used to check ambiguity?",
+      "options": {
+        "A": "Parse tree comparison",
+        "B": "DFA minimization",
+        "C": "Closure property",
+        "D": "Arden’s theorem"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "The main difference between CFG and regular grammar is:",
+      "options": {
+        "A": "CFG uses more powerful production rules",
+        "B": "CFG has no start symbol",
+        "C": "CFG is a subset of regular grammar",
+        "D": "CFG cannot derive strings"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "question": "A CFG that produces more than one parse tree for a single string is called:",
+      "options": {
+        "A": "Left recursive",
+        "B": "Ambiguous",
+        "C": "Right recursive",
+        "D": "Regular"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "question": "CFGs are used in compilers to:",
+      "options": {
+        "A": "Generate machine code",
+        "B": "Check syntax of the source code",
+        "C": "Execute programs",
+        "D": "Optimize memory"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "question": "Regular expressions can be converted to:",
+      "options": {
+        "A": "CFG",
+        "B": "Finite Automata",
+        "C": "PDA",
+        "D": "Turing Machine"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "question": "Finite automata and regular expressions are:",
+      "options": {
+        "A": "Not related",
+        "B": "Equivalent in expressive power",
+        "C": "Finite automata are stronger",
+        "D": "Regular expressions are stronger"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "question": "A CFG that does not generate any ambiguous string is called:",
+      "options": {
+        "A": "Unambiguous grammar",
+        "B": "Left-linear grammar",
+        "C": "Right-linear grammar",
+        "D": "Recursive grammar"
       },
       "answer": "A"
     }
-]
+  ]
 }
