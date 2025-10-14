@@ -29,7 +29,7 @@ cset302: {
     subtitle: 'Automata Theory',
     
     dataFile: 'cset302',
-    questions: 0
+    questions: 75
   },
   cset344: {
     id: 'cset344',
