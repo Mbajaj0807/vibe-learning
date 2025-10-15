@@ -12,7 +12,7 @@ const Leaderboard = ({ quizId, quizConfig, onBack }) => {
     const fetchLeaderboard = async () => {
       try {
         setLoading(true);
-        const data = await api.getLeaderboard(quizId, 10);
+        const data = await api.getLeaderboard(quizId, 50);
         setLeaderboard(data);
         setError(null);
       } catch (err) {

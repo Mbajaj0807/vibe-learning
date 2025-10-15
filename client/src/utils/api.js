@@ -11,7 +11,7 @@ const api = {
     return response.json();
   },
   
-  getLeaderboard: async (quizId, limit = 10) => {
+  getLeaderboard: async (quizId, limit = 50) => {
     const response = await fetch(`${API_BASE_URL}/scores/leaderboard/${quizId}?limit=${limit}`);
     if (!response.ok) throw new Error('Failed to fetch leaderboard');
     return response.json();
