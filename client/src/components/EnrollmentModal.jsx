@@ -4,7 +4,7 @@ const EnrollmentModal = ({ onSubmit, onClose, initialEnrollment }) => {
   const [enrollment, setEnrollment] = useState(initialEnrollment || '');
 
   const handleSubmit = () => {
-    if(enrollment.slice(0,6).toLowerCase() !== 'e23cseu' && enrollment.length !== 11) {
+    if(enrollment.slice(0,7).toLowerCase() !== 'e23cseu' || enrollment.length !== 11) {
       alert('Please enter a valid enrollment number.');
       return;
     }
@@ -29,7 +29,7 @@ const EnrollmentModal = ({ onSubmit, onClose, initialEnrollment }) => {
           value={enrollment}
           onChange={(e) => setEnrollment(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="e.g., 21BCE1234"
+          placeholder="e.g., E23CSEUXXXX"
           className="w-full px-4 py-3 border-2 border-blue-600 bg-gray-900 text-white rounded-lg focus:border-blue-400 focus:outline-none text-lg mb-4 placeholder-gray-500"
           autoFocus
         />
